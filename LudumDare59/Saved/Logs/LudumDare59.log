@@ -1173,3 +1173,1033 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.04.18-14.40.12:623][  9]LogEOSSDK: LogEOS: SDK Config Data - Watermark: 1879824717
 [2026.04.18-14.40.12:623][  9]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 19.452353, Update Interval: 332.480225
 [2026.04.18-14.41.35:488][258]LogDerivedDataCache: C:/Users/Utilisateur/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.002 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.04.18-14.45.45:306][  7]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 352.474945
+[2026.04.18-14.45.46:307][ 10]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.18-14.45.46:307][ 10]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 353.141846, Update Interval: 345.301666
+[2026.04.18-14.47.21:296][630]LogSlate: Took 0.001044 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2026.04.18-14.48.31:027][662]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.04.18-14.48.31:047][662]LogContentBundle: [Lvl_FirstPerson(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.04.18-14.48.31:047][662]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' started...
+[2026.04.18-14.48.31:068][662]LogWorldPartition: Display: GenerateStreaming for 'Lvl_FirstPerson' took 21.132 ms
+[2026.04.18-14.48.31:075][662]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.04.18-14.48.31:099][662]LogPlayLevel: Display: Creating online subsystem for client :Context_1
+[2026.04.18-14.48.31:109][662]LogOnline: OSS: Created online subsystem instance for: :Context_1
+[2026.04.18-14.48.31:144][663]LogPlayLevel: Creating play world package: /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2026.04.18-14.48.31:191][663]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.04.18-14.48.31:194][663]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 2.622 ms
+[2026.04.18-14.48.31:194][663]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048358s)
+[2026.04.18-14.48.31:194][663]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Lvl_FirstPerson.Lvl_FirstPerson to /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson (0.050581s)
+[2026.04.18-14.48.31:411][663]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2026.04.18-14.48.31:423][663]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_FirstPerson
+[2026.04.18-14.48.31:471][663]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_FirstPerson)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.04.18-14.48.31:471][663]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.04.18-14.48.31:471][663]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.04.18-14.48.31:471][663]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.04.18-14.48.31:476][663]LogWorldPartition: Display: WorldPartition initialize took 4.838 ms (total: 165.431 ms)
+[2026.04.18-14.48.31:478][663]LogPlayLevel: PIE: World Init took: (0.055479s)
+[2026.04.18-14.48.31:481][663]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2026.04.18-14.48.31:483][663]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.04.18-14.48.31:483][663]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.04.18-14.48.31:483][663]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.04.18-14.48.31:483][663]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.04.18-14.48.31:483][663]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.04.18-14.48.31:483][663]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.04.18-14.48.31:483][663]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.04.18-14.48.31:483][663]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.04.18-14.48.31:484][663]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.04.18-14.48.31:484][663]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.04.18-14.48.31:484][663]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.04.18-14.48.31:489][663]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.04.18-14.48.31:556][663]LogAudioMixer: Display: Using Audio Hardware Device MAIN Left/Right (MiniFuse 4)
+[2026.04.18-14.48.31:559][663]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.04.18-14.48.31:560][663]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.04.18-14.48.31:561][663]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.04.18-14.48.31:563][663]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2026.04.18-14.48.31:563][663]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2026.04.18-14.48.31:566][663]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2026.04.18-14.48.31:566][663]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2026.04.18-14.48.31:566][663]LogInit: FAudioDevice initialized with ID 2.
+[2026.04.18-14.48.31:566][663]LogAudio: Display: Audio Device (ID: 2) registered with world 'Lvl_FirstPerson'.
+[2026.04.18-14.48.31:567][663]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2026.04.18-14.48.31:583][663]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.04.18-14.48.31:602][663]LogWorld: Bringing World /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson up for play (max tick rate 0) at 2026.04.18-16.48.31
+[2026.04.18-14.48.31:604][663]LogWorld: Bringing up level for play took: 0.017125
+[2026.04.18-14.48.31:737][663]PIE: Server logged in
+[2026.04.18-14.48.31:740][663]PIE: Play in editor total start time 0,699 seconds.
+[2026.04.18-14.48.31:860][663]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.04.18-14.48.32:167][665]LogPSOHitching: Encountered 100 PSO creation hitches so far (19 graphics, 81 compute). 0 of them were precached.
+[2026.04.18-14.48.47:829][390]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.18-14.48.47:829][390]LogWorld: BeginTearingDown for /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson
+[2026.04.18-14.48.47:832][390]LogWorld: UWorld::CleanupWorld for Lvl_FirstPerson, bSessionEnded=true, bCleanupResources=true
+[2026.04.18-14.48.47:835][390]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.18-14.48.47:835][390]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/UEDPIE_0_Lvl_FirstPerson.Lvl_FirstPerson
+[2026.04.18-14.48.47:841][390]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.04.18-14.48.47:845][390]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.18-14.48.47:867][390]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.04.18-14.48.47:868][390]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2026.04.18-14.48.47:868][390]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=4
+[2026.04.18-14.48.47:873][390]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=2
+[2026.04.18-14.48.47:896][390]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2026.04.18-14.48.47:941][391]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2026.04.18-14.48.57:354][897]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2026.04.18-14.48.58:505][933]LogStreaming: Display: FlushAsyncLoading(393): 1 QueuedPackages, 0 AsyncPackages
+[2026.04.18-14.48.58:611][934]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2026.04.18-14.48.58:740][937]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2026.04.18-14.48.59:570][972]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2026.04.18-14.48.59:632][973]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2026.04.18-14.49.22:345][616]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2026.04.18-14.49.22:363][616]LogContentBrowser: Creating deferred item: NewFolder
+[2026.04.18-14.49.22:405][618]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2026.04.18-14.49.25:800][804]LogContentBrowser: Attempting asset rename: NewFolder -> Metasounds
+[2026.04.18-14.49.25:801][804]LogContentBrowser: End creating deferred item NewFolder
+[2026.04.18-14.49.28:445][924]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2026.04.18-14.49.28:463][924]LogContentBrowser: Creating deferred item: NewFolder
+[2026.04.18-14.49.28:487][925]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2026.04.18-14.49.30:351][ 27]LogContentBrowser: Attempting asset rename: NewFolder -> Wavs
+[2026.04.18-14.49.30:352][ 27]LogContentBrowser: End creating deferred item NewFolder
+[2026.04.18-14.49.39:858][158]LogStreaming: Display: FlushAsyncLoading(394): 1 QueuedPackages, 0 AsyncPackages
+[2026.04.18-14.49.40:015][158]LogAssetTools: Warning: Failed to import 'C:\Users\Utilisateur\Documents\PirateIsland_UnrealProject\PirateIsland_UnrealProject\PirateIsland_UnrealProject\Content\Audio\Metasound\Patch/MSP_Foley_Base.uasset'. Unknown extension 'uasset'.
+[2026.04.18-14.49.40:050][158]LogAssetTools: Warning: Failed to import 'C:\Users\Utilisateur\Documents\PirateIsland_UnrealProject\PirateIsland_UnrealProject\PirateIsland_UnrealProject\Content\Audio\Metasound\Patch/MSP_FT_Base.uasset'. Unknown extension 'uasset'.
+[2026.04.18-14.49.40:084][158]LogAssetTools: Warning: Failed to import 'C:\Users\Utilisateur\Documents\PirateIsland_UnrealProject\PirateIsland_UnrealProject\PirateIsland_UnrealProject\Content\Audio\Metasound\Patch/MSP_LoopRFX_Stereo.uasset'. Unknown extension 'uasset'.
+[2026.04.18-14.49.40:120][158]LogAssetTools: Warning: Failed to import 'C:\Users\Utilisateur\Documents\PirateIsland_UnrealProject\PirateIsland_UnrealProject\PirateIsland_UnrealProject\Content\Audio\Metasound\Patch/MSP_Loop_Mono.uasset'. Unknown extension 'uasset'.
+[2026.04.18-14.49.40:153][158]LogAssetTools: Warning: Failed to import 'C:\Users\Utilisateur\Documents\PirateIsland_UnrealProject\PirateIsland_UnrealProject\PirateIsland_UnrealProject\Content\Audio\Metasound\Patch/MSP_Loop_Stereo.uasset'. Unknown extension 'uasset'.
+[2026.04.18-14.49.40:188][158]LogAssetTools: Warning: Failed to import 'C:\Users\Utilisateur\Documents\PirateIsland_UnrealProject\PirateIsland_UnrealProject\PirateIsland_UnrealProject\Content\Audio\Metasound\Patch/MSP_OneShotRFX_Mono.uasset'. Unknown extension 'uasset'.
+[2026.04.18-14.49.40:223][158]LogAssetTools: Warning: Failed to import 'C:\Users\Utilisateur\Documents\PirateIsland_UnrealProject\PirateIsland_UnrealProject\PirateIsland_UnrealProject\Content\Audio\Metasound\Patch/MSP_OneShot_Mono.uasset'. Unknown extension 'uasset'.
+[2026.04.18-14.49.40:259][158]LogAssetTools: Warning: Failed to import 'C:\Users\Utilisateur\Documents\PirateIsland_UnrealProject\PirateIsland_UnrealProject\PirateIsland_UnrealProject\Content\Audio\Metasound\Patch/MSP_OneShot_Stereo.uasset'. Unknown extension 'uasset'.
+[2026.04.18-14.50.07:003][249]LogAssetTools: Warning: Failed to import 'C:\Users\Utilisateur\Documents\ActionRPG__5-6_Base\Content\Audio\Metasound\Patch/MSP_Foley_Base.uasset'. Unknown extension 'uasset'.
+[2026.04.18-14.50.07:032][249]LogAssetTools: Warning: Failed to import 'C:\Users\Utilisateur\Documents\ActionRPG__5-6_Base\Content\Audio\Metasound\Patch/MSP_FT_Base.uasset'. Unknown extension 'uasset'.
+[2026.04.18-14.50.07:066][249]LogAssetTools: Warning: Failed to import 'C:\Users\Utilisateur\Documents\ActionRPG__5-6_Base\Content\Audio\Metasound\Patch/MSP_LoopRFX_Stereo.uasset'. Unknown extension 'uasset'.
+[2026.04.18-14.50.07:101][249]LogAssetTools: Warning: Failed to import 'C:\Users\Utilisateur\Documents\ActionRPG__5-6_Base\Content\Audio\Metasound\Patch/MSP_Loop_Mono.uasset'. Unknown extension 'uasset'.
+[2026.04.18-14.50.07:136][249]LogAssetTools: Warning: Failed to import 'C:\Users\Utilisateur\Documents\ActionRPG__5-6_Base\Content\Audio\Metasound\Patch/MSP_Loop_Stereo.uasset'. Unknown extension 'uasset'.
+[2026.04.18-14.50.07:163][249]LogAssetTools: Warning: Failed to import 'C:\Users\Utilisateur\Documents\ActionRPG__5-6_Base\Content\Audio\Metasound\Patch/MSP_OneShotRFX_Mono.uasset'. Unknown extension 'uasset'.
+[2026.04.18-14.50.07:191][249]LogAssetTools: Warning: Failed to import 'C:\Users\Utilisateur\Documents\ActionRPG__5-6_Base\Content\Audio\Metasound\Patch/MSP_OneShot_Mono.uasset'. Unknown extension 'uasset'.
+[2026.04.18-14.50.07:225][249]LogAssetTools: Warning: Failed to import 'C:\Users\Utilisateur\Documents\ActionRPG__5-6_Base\Content\Audio\Metasound\Patch/MSP_OneShot_Stereo.uasset'. Unknown extension 'uasset'.
+[2026.04.18-14.51.33:777][509]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 700.940308
+[2026.04.18-14.51.34:770][512]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.18-14.51.34:771][512]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 701.602966, Update Interval: 329.006622
+[2026.04.18-14.52.30:365][907]LogStreaming: Display: FlushAsyncLoading(422): 1 QueuedPackages, 0 AsyncPackages
+[2026.04.18-14.52.30:366][907]LogStreaming: Warning: LoadPackage: SkipPackage: /Game/Audio/Metasound/Patch/MSP_OneShot_Stereo (0xA82398C5811F8E9E) - The package to load does not exist on disk or in the loader
+[2026.04.18-14.52.30:368][907]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Audio/Metasound/Patch/MSP_OneShot_Stereo.MSP_OneShot_Stereo'
+[2026.04.18-14.52.34:891][138]LogStreaming: Display: FlushAsyncLoading(424): 1 QueuedPackages, 0 AsyncPackages
+[2026.04.18-14.52.44:785][509]LogContentBrowser: Deferred new asset file creation: NewMetaSoundPatch
+[2026.04.18-14.52.44:808][509]LogContentBrowser: Creating deferred item: NewMetaSoundPatch
+[2026.04.18-14.52.44:856][511]LogContentBrowser: Renaming the item being created (Deferred Item: NewMetaSoundPatch).
+[2026.04.18-14.53.10:219][866]LogContentBrowser: Attempting asset rename: NewMetaSoundPatch -> MSP_OneShotM
+[2026.04.18-14.53.10:238][866]LogContentBrowser: End creating deferred item NewMetaSoundPatch
+[2026.04.18-14.53.11:488][927]LogAssetEditorSubsystem: Opening Asset editor for MetaSoundPatch /Game/Audio/Metasounds/MSP_OneShotM.MSP_OneShotM
+[2026.04.18-14.53.11:710][927]LogSlate: The tab "MetasoundEditor_Pages" attempted to spawn in layout 'Standalone_MetasoundEditor_Layout_v15' but failed for some reason. It will not be displayed.
+[2026.04.18-14.53.11:711][927]LogSlate: The tab "MetasoundEditor_UserPresetWidget" attempted to spawn in layout 'Standalone_MetasoundEditor_Layout_v15' but failed for some reason. It will not be displayed.
+[2026.04.18-14.53.11:711][927]LogSlate: The tab "MetasoundEditor_UserPresetWidget" attempted to spawn in layout 'Standalone_MetasoundEditor_Layout_v15' but failed for some reason. It will not be displayed.
+[2026.04.18-14.53.12:328][927]LogSlate: Took 0.000946 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2026.04.18-14.53.12:489][930]LogMetaSound: Display: Async MetaSound Load/Asset Tag Prime Complete
+[2026.04.18-14.53.22:729][209]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphOutputNode:Output: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphOutput'Member_1D8F56334DA46ED82293338BD1399A92'"'
+[2026.04.18-14.53.22:731][209]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_FD73F2664CDE3DA16BFFC488C9BF19E7'"'
+[2026.04.18-14.53.22:731][209]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphOutputNode:Output: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphOutput'Member_70D21C374F83FBBBB54313BB7A9EC357'"'
+[2026.04.18-14.53.22:732][209]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_C54586B5418CB19DA9B970BDFA95F91D'"'
+[2026.04.18-14.53.22:732][209]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_57CDDA8040E8567B39B262B4589434D2'"'
+[2026.04.18-14.53.22:733][209]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphOutputNode:Output: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphOutput'Member_D93F2FD740C9E20A9598138F3FEECD81'"'
+[2026.04.18-14.53.22:733][209]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_A28329A74A2E1E8602020B99FFB0A7FE'"'
+[2026.04.18-14.53.22:733][209]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphOutputNode:Output: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphOutput'Member_B489C3864F4A7C152C4C29BCE89E0A6E'"'
+[2026.04.18-14.53.22:733][209]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_AE6EB2A9423DDE36A6713182B27CD531'"'
+[2026.04.18-14.53.22:734][209]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_2050E86E4B88ADB0BCEC5BACC4AE77E9'"'
+[2026.04.18-14.53.22:734][209]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_B1BE7BD14B5A4780D5EA6F8FFEF63588'"'
+[2026.04.18-14.53.22:735][209]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_63A92F2C47D14A3E8F0E9D9C78DB27B9'"'
+[2026.04.18-14.53.22:735][209]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_E9392199487068C389F74AB81337BC97'"'
+[2026.04.18-14.53.22:735][209]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_528D1E664E92E47379A13B8D2EE6B7A5'"'
+[2026.04.18-14.53.22:735][209]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_528D1E664E92E47379A13B8D2EE6B7A5'"'
+[2026.04.18-14.53.22:735][209]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_6850653B4FFECB3E199DFD8A6FED55F0'"'
+[2026.04.18-14.53.22:736][209]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_6850653B4FFECB3E199DFD8A6FED55F0'"'
+[2026.04.18-14.53.22:736][209]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_36CB27DF47274314805B668795741680'"'
+[2026.04.18-14.53.22:736][209]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_36CB27DF47274314805B668795741680'"'
+[2026.04.18-14.53.22:736][209]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_51FC53B24BF81FCEC3E8E4AB08F2CC44'"'
+[2026.04.18-14.53.22:736][209]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_51FC53B24BF81FCEC3E8E4AB08F2CC44'"'
+[2026.04.18-14.53.22:764][209]LogStreaming: Display: FlushAsyncLoading(427): 1 QueuedPackages, 0 AsyncPackages
+[2026.04.18-14.53.28:852][441]LogSlate: Window 'MSP_OneShotM' being destroyed
+[2026.04.18-14.53.30:246][578]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.18-14.53.30:305][578]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/Metasounds/MSP_OneShotM] ([1] browsable assets)...
+[2026.04.18-14.53.30:305][578]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/Metasounds/MSP_OneShotM]
+[2026.04.18-14.53.30:306][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/Metasounds/MSP_OneShotM" FILE="../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/MSP_OneShotM.uasset" SILENT=true
+[2026.04.18-14.53.30:363][578]LogSavePackage: Moving output files for package: /Game/Audio/Metasounds/MSP_OneShotM
+[2026.04.18-14.53.30:363][578]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/MSP_OneShotMEC7556EB47B6EC7F4F381294ACC8AE82.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/MSP_OneShotM.uasset'
+[2026.04.18-14.53.30:384][578]LogFileHelpers: InternalPromptForCheckoutAndSave took 138.488 ms
+[2026.04.18-14.53.30:456][578]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.18-14.53.30:456][578]LogContentValidation: Enabled validators:
+[2026.04.18-14.53.30:458][578]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.18-14.53.30:458][578]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.18-14.53.30:458][578]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.18-14.53.30:458][578]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.18-14.53.30:458][578]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.18-14.53.30:458][578]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.18-14.53.30:461][578]AssetCheck: /Game/Audio/Metasounds/MSP_OneShotM Validating asset
+[2026.04.18-14.53.30:652][578]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/SourceControl/UncontrolledChangelists.json
+[2026.04.18-14.54.12:917][ 19]LogEditorTransaction: Undo Set MetaSound Input 'MaxPitch' Default (Page: Default)
+[2026.04.18-14.54.13:532][ 20]LogEditorTransaction: Undo Set MetaSound Input 'MaxPitch' Default (Page: Default)
+[2026.04.18-14.54.13:551][ 20]LogEditorTransaction: Undo Set MetaSound Input 'MinPitch' Default (Page: Default)
+[2026.04.18-14.54.14:097][ 21]LogEditorTransaction: Undo Resize Node
+[2026.04.18-14.54.14:603][ 22]LogEditorTransaction: Undo Set MetaSound Input 'MinPitch' Default (Page: Default)
+[2026.04.18-14.54.38:067][ 62]LogContentBrowser: Attempting asset rename: MSP_OneShotM -> MSP_OneShotST
+[2026.04.18-14.54.38:529][ 62]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.18-14.54.38:529][ 62]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/Metasounds/MSP_OneShotST] ([1] browsable assets)...
+[2026.04.18-14.54.38:529][ 62]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/Metasounds/MSP_OneShotST]
+[2026.04.18-14.54.38:529][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/Metasounds/MSP_OneShotST" FILE="../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/MSP_OneShotST.uasset" SILENT=true
+[2026.04.18-14.54.38:574][ 62]LogSavePackage: Moving output files for package: /Game/Audio/Metasounds/MSP_OneShotST
+[2026.04.18-14.54.38:574][ 62]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/MSP_OneShotST52501CD84B8C7555487AD487ED45077D.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/MSP_OneShotST.uasset'
+[2026.04.18-14.54.38:576][ 62]LogFileHelpers: InternalPromptForCheckoutAndSave took 47.852 ms (total: 186.340 ms)
+[2026.04.18-14.54.38:986][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2026.04.18-14.54.39:016][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2026.04.18-14.54.39:041][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2026.04.18-14.54.39:117][ 62]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.18-14.54.39:117][ 62]LogContentValidation: Enabled validators:
+[2026.04.18-14.54.39:117][ 62]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.18-14.54.39:117][ 62]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.18-14.54.39:117][ 62]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.18-14.54.39:117][ 62]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.18-14.54.39:117][ 62]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.18-14.54.39:118][ 62]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.18-14.54.39:118][ 62]AssetCheck: /Game/Audio/Metasounds/MSP_OneShotST Validating asset
+[2026.04.18-14.54.39:213][ 62]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/SourceControl/UncontrolledChangelists.json
+[2026.04.18-14.54.46:663][268]LogContentBrowser: Attempting asset rename: MSP_OneShotST -> MSP_OneShotST
+[2026.04.18-14.54.51:863][498]LogContentBrowser: Attempting asset rename: MSP_OneShotST1 -> MSP_OneShotM
+[2026.04.18-14.54.51:971][498]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.18-14.54.51:972][498]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/Metasounds/MSP_OneShotM] ([1] browsable assets)...
+[2026.04.18-14.54.51:972][498]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/Metasounds/MSP_OneShotM]
+[2026.04.18-14.54.51:972][498]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/Metasounds/MSP_OneShotM" FILE="../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/MSP_OneShotM.uasset" SILENT=true
+[2026.04.18-14.54.52:021][498]LogSavePackage: Moving output files for package: /Game/Audio/Metasounds/MSP_OneShotM
+[2026.04.18-14.54.52:021][498]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/MSP_OneShotM75E6219B4C4E541DF983AAA238E22FAE.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/MSP_OneShotM.uasset'
+[2026.04.18-14.54.52:023][498]LogFileHelpers: InternalPromptForCheckoutAndSave took 51.791 ms (total: 238.131 ms)
+[2026.04.18-14.54.52:058][498]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2026.04.18-14.54.52:085][498]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2026.04.18-14.54.52:115][498]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.04.18-14.54.52:191][498]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.18-14.54.52:191][498]LogContentValidation: Enabled validators:
+[2026.04.18-14.54.52:191][498]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.18-14.54.52:191][498]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.18-14.54.52:191][498]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.18-14.54.52:191][498]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.18-14.54.52:191][498]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.18-14.54.52:191][498]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.18-14.54.52:191][498]AssetCheck: /Game/Audio/Metasounds/MSP_OneShotM Validating asset
+[2026.04.18-14.54.53:197][541]LogAssetEditorSubsystem: Opening Asset editor for MetaSoundPatch /Game/Audio/Metasounds/MSP_OneShotM.MSP_OneShotM
+[2026.04.18-14.54.53:369][541]LogSlate: The tab "MetasoundEditor_Pages" attempted to spawn in layout 'Standalone_MetasoundEditor_Layout_v15' but failed for some reason. It will not be displayed.
+[2026.04.18-14.54.53:369][541]LogSlate: The tab "MetasoundEditor_UserPresetWidget" attempted to spawn in layout 'Standalone_MetasoundEditor_Layout_v15' but failed for some reason. It will not be displayed.
+[2026.04.18-14.54.53:369][541]LogSlate: The tab "MetasoundEditor_UserPresetWidget" attempted to spawn in layout 'Standalone_MetasoundEditor_Layout_v15' but failed for some reason. It will not be displayed.
+[2026.04.18-14.54.55:097][584]LogSlate: Window 'MSP_OneShotM' being destroyed
+[2026.04.18-14.55.05:024][838]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphOutputNode:Output: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphOutput'Member_9DA1B46D4B00D7EB3A50C093DE7E83A1'"'
+[2026.04.18-14.55.05:025][838]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_8C86B9364A330B4082DD68BC4B840B83'"'
+[2026.04.18-14.55.05:026][838]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_22CD98F94F43CEDED8F3DA89659788FA'"'
+[2026.04.18-14.55.05:026][838]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_428739BF4011ED300DEE1A8A42A5D7D7'"'
+[2026.04.18-14.55.05:026][838]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_22CD98F94F43CEDED8F3DA89659788FA'"'
+[2026.04.18-14.55.05:027][838]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_F5668902445EB94D4413BABFA0BB1C5E'"'
+[2026.04.18-14.55.05:027][838]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_9CAFC400416ACC840D3A14801FDF38C5'"'
+[2026.04.18-14.55.05:027][838]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_CD15736840464E4B9547DB934DCD1105'"'
+[2026.04.18-14.55.05:028][838]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_17E1438C4526ED9D34F54A97ABA9208B'"'
+[2026.04.18-14.55.05:028][838]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_6D4FC1604777FE17B5342BB5A31B7BA0'"'
+[2026.04.18-14.55.05:028][838]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphOutputNode:Output: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphOutput'Member_1AFBC48142809313BCA331954D0CE707'"'
+[2026.04.18-14.55.05:029][838]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphOutputNode:Output: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphOutput'Member_4CD3018A41688BCB4228748AF45E4649'"'
+[2026.04.18-14.55.05:029][838]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_469F8297450C716BA124EBBC278299A8'"'
+[2026.04.18-14.55.05:029][838]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_95B16BFB405992C66DD0D2BAA4278100'"'
+[2026.04.18-14.55.05:030][838]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_95B16BFB405992C66DD0D2BAA4278100'"'
+[2026.04.18-14.55.05:030][838]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_492EF0814330C622B358E7BAAAB65B4D'"'
+[2026.04.18-14.55.05:030][838]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_492EF0814330C622B358E7BAAAB65B4D'"'
+[2026.04.18-14.55.05:030][838]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_F48B65B347F3490B7F01E893463B7CB7'"'
+[2026.04.18-14.55.05:030][838]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_F48B65B347F3490B7F01E893463B7CB7'"'
+[2026.04.18-14.55.05:030][838]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_A186F00549C6C051C7EED7AE956C30E4'"'
+[2026.04.18-14.55.05:030][838]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_A186F00549C6C051C7EED7AE956C30E4'"'
+[2026.04.18-14.55.05:032][838]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_F3A796FE44C723CCDE696B900A8D1FDF'"'
+[2026.04.18-14.55.05:032][838]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphOutputNode:Output: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphOutput'Member_925A94E34A9ED60B86CFE9B1640C2DF2'"'
+[2026.04.18-14.55.05:032][838]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_9A6840DF466AF189BE8A69B0048AF693'"'
+[2026.04.18-14.55.05:032][838]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_4325495449F6EB44DA927194D74BD4F1'"'
+[2026.04.18-14.55.05:035][838]LogStreaming: Display: FlushAsyncLoading(440): 1 QueuedPackages, 0 AsyncPackages
+[2026.04.18-14.55.05:035][838]LogStreaming: Warning: LoadPackage: SkipPackage: /Game/Audio/Metasound/Patch/MSP_OneShotRFX_Mono (0x49E1E9685F847378) - The package to load does not exist on disk or in the loader
+[2026.04.18-14.55.05:035][838]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Audio/Metasound/Patch/MSP_OneShotRFX_Mono.MSP_OneShotRFX_Mono'
+[2026.04.18-14.55.09:192][ 19]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.18-14.55.09:260][ 19]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/Metasounds/MSP_OneShotM] ([1] browsable assets)...
+[2026.04.18-14.55.09:260][ 19]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/Metasounds/MSP_OneShotM]
+[2026.04.18-14.55.09:260][ 19]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/Metasounds/MSP_OneShotM" FILE="../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/MSP_OneShotM.uasset" SILENT=true
+[2026.04.18-14.55.09:316][ 19]LogSavePackage: Moving output files for package: /Game/Audio/Metasounds/MSP_OneShotM
+[2026.04.18-14.55.09:317][ 19]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/MSP_OneShotM00A55E20479A74E688DCB4A36DD81652.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/MSP_OneShotM.uasset'
+[2026.04.18-14.55.09:327][ 19]LogFileHelpers: InternalPromptForCheckoutAndSave took 135.063 ms (total: 373.195 ms)
+[2026.04.18-14.55.09:391][ 19]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.18-14.55.09:391][ 19]LogContentValidation: Enabled validators:
+[2026.04.18-14.55.09:391][ 19]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.18-14.55.09:391][ 19]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.18-14.55.09:391][ 19]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.18-14.55.09:391][ 19]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.18-14.55.09:391][ 19]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.18-14.55.09:391][ 19]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.18-14.55.09:391][ 19]AssetCheck: /Game/Audio/Metasounds/MSP_OneShotM Validating asset
+[2026.04.18-14.55.10:069][ 47]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.18-14.55.10:125][ 47]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/Metasounds/MSP_OneShotM] ([1] browsable assets)...
+[2026.04.18-14.55.10:125][ 47]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/Metasounds/MSP_OneShotM]
+[2026.04.18-14.55.10:126][ 47]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/Metasounds/MSP_OneShotM" FILE="../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/MSP_OneShotM.uasset" SILENT=true
+[2026.04.18-14.55.10:184][ 47]LogSavePackage: Moving output files for package: /Game/Audio/Metasounds/MSP_OneShotM
+[2026.04.18-14.55.10:185][ 47]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/MSP_OneShotM7DC03D3644C529707D97D08344C011A9.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/MSP_OneShotM.uasset'
+[2026.04.18-14.55.10:196][ 47]LogFileHelpers: InternalPromptForCheckoutAndSave took 127.159 ms (total: 500.355 ms)
+[2026.04.18-14.55.10:258][ 47]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.18-14.55.10:258][ 47]LogContentValidation: Enabled validators:
+[2026.04.18-14.55.10:258][ 47]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.18-14.55.10:258][ 47]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.18-14.55.10:258][ 47]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.18-14.55.10:258][ 47]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.18-14.55.10:258][ 47]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.18-14.55.10:258][ 47]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.18-14.55.10:258][ 47]AssetCheck: /Game/Audio/Metasounds/MSP_OneShotM Validating asset
+[2026.04.18-14.55.28:434][281]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2026.04.18-14.55.28:455][281]LogContentBrowser: Creating deferred item: NewFolder
+[2026.04.18-14.55.28:488][282]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2026.04.18-14.55.30:469][387]LogContentBrowser: Attempting asset rename: NewFolder -> NewFolder
+[2026.04.18-14.55.30:471][387]LogContentBrowser: End creating deferred item NewFolder
+[2026.04.18-14.55.49:396][131]LogContentBrowser: Attempting asset rename: MSP_OneShotST1 -> MSP_LoopST
+[2026.04.18-14.55.49:502][131]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.18-14.55.49:503][131]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/Metasounds/MSP_LoopST] ([1] browsable assets)...
+[2026.04.18-14.55.49:503][131]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/Metasounds/MSP_LoopST]
+[2026.04.18-14.55.49:503][131]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/Metasounds/MSP_LoopST" FILE="../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/MSP_LoopST.uasset" SILENT=true
+[2026.04.18-14.55.49:547][131]LogSavePackage: Moving output files for package: /Game/Audio/Metasounds/MSP_LoopST
+[2026.04.18-14.55.49:547][131]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/MSP_LoopSTA8DBFEC1420BDA2634BAFEAE7501FC8A.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/MSP_LoopST.uasset'
+[2026.04.18-14.55.49:549][131]LogFileHelpers: InternalPromptForCheckoutAndSave took 46.158 ms (total: 546.513 ms)
+[2026.04.18-14.55.49:615][131]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2026.04.18-14.55.49:640][131]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2026.04.18-14.55.49:662][131]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.04.18-14.55.49:734][131]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.18-14.55.49:734][131]LogContentValidation: Enabled validators:
+[2026.04.18-14.55.49:734][131]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.18-14.55.49:734][131]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.18-14.55.49:734][131]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.18-14.55.49:734][131]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.18-14.55.49:734][131]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.18-14.55.49:734][131]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.18-14.55.49:734][131]AssetCheck: /Game/Audio/Metasounds/MSP_LoopST Validating asset
+[2026.04.18-14.55.49:783][131]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/SourceControl/UncontrolledChangelists.json
+[2026.04.18-14.55.51:018][187]LogAssetEditorSubsystem: Opening Asset editor for MetaSoundPatch /Game/Audio/Metasounds/MSP_LoopST.MSP_LoopST
+[2026.04.18-14.55.51:113][187]LogSlate: The tab "MetasoundEditor_Pages" attempted to spawn in layout 'Standalone_MetasoundEditor_Layout_v15' but failed for some reason. It will not be displayed.
+[2026.04.18-14.55.51:113][187]LogSlate: The tab "MetasoundEditor_UserPresetWidget" attempted to spawn in layout 'Standalone_MetasoundEditor_Layout_v15' but failed for some reason. It will not be displayed.
+[2026.04.18-14.55.51:113][187]LogSlate: The tab "MetasoundEditor_UserPresetWidget" attempted to spawn in layout 'Standalone_MetasoundEditor_Layout_v15' but failed for some reason. It will not be displayed.
+[2026.04.18-14.56.04:284][531]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphOutputNode:Output: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphOutput'Member_7CA68E5F4887DBBF431EF79500B1D0C6'"'
+[2026.04.18-14.56.04:284][531]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_BE3B0A804A7F485E76C7A4801C36FCD3'"'
+[2026.04.18-14.56.04:284][531]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphOutputNode:Output: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphOutput'Member_441AB7BA4DC5EF46C62441A575E29C66'"'
+[2026.04.18-14.56.04:285][531]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_B7C207A44F6D418A0107AE88E711AD6D'"'
+[2026.04.18-14.56.04:285][531]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_AA398E234E0A741D5D282688424F5F0E'"'
+[2026.04.18-14.56.04:286][531]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_B31C34A84494B68029C0FC95C688CC5A'"'
+[2026.04.18-14.56.04:286][531]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_6772A2764F2BA40159C3BA8BFD5FCC22'"'
+[2026.04.18-14.56.04:287][531]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_BB9B6E4D4B74216EE4CFDB93C26DF116'"'
+[2026.04.18-14.56.04:287][531]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_68A3C44E440429089FE35FA7B923EC6E'"'
+[2026.04.18-14.56.04:287][531]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_5D7B6E0F49A143E67BA7B587A1A6926D'"'
+[2026.04.18-14.56.04:288][531]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_B31C34A84494B68029C0FC95C688CC5A'"'
+[2026.04.18-14.56.04:288][531]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_1989CA9148C258AAEDAB21A74224E3B1'"'
+[2026.04.18-14.56.04:288][531]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_B31C34A84494B68029C0FC95C688CC5A'"'
+[2026.04.18-14.56.04:288][531]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_9422CE414C607B77C1A074869ADE97EA'"'
+[2026.04.18-14.56.04:288][531]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_9422CE414C607B77C1A074869ADE97EA'"'
+[2026.04.18-14.56.04:288][531]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_D112377448A2149C175EDD8795CCF64A'"'
+[2026.04.18-14.56.04:288][531]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_D112377448A2149C175EDD8795CCF64A'"'
+[2026.04.18-14.56.04:289][531]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_2220BCB14F8CDAD658BCF99B261771C4'"'
+[2026.04.18-14.56.04:289][531]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_2220BCB14F8CDAD658BCF99B261771C4'"'
+[2026.04.18-14.56.04:289][531]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_E11D666647521FAE579B55A2AB60B62F'"'
+[2026.04.18-14.56.04:289][531]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_E11D666647521FAE579B55A2AB60B62F'"'
+[2026.04.18-14.56.04:290][531]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphOutputNode:Output: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphOutput'Member_6892809C4733B06FFB3738AE6A05C5C9'"'
+[2026.04.18-14.56.04:291][531]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphOutputNode:Output: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphOutput'Member_093E997346B59D82B833F089AD775D21'"'
+[2026.04.18-14.56.04:291][531]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_20FACD114C3749F937CC5E997CC8EEEF'"'
+[2026.04.18-14.56.04:291][531]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_FE7D08AA45CD789022DFEB92DCE2C223'"'
+[2026.04.18-14.56.04:294][531]LogStreaming: Display: FlushAsyncLoading(446): 1 QueuedPackages, 0 AsyncPackages
+[2026.04.18-14.56.04:295][531]LogStreaming: Warning: LoadPackage: SkipPackage: /Game/Audio/Metasound/Patch/MSP_Loop_Stereo (0x13382CAC50379D64) - The package to load does not exist on disk or in the loader
+[2026.04.18-14.56.04:296][531]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Audio/Metasound/Patch/MSP_Loop_Stereo.MSP_Loop_Stereo'
+[2026.04.18-14.56.05:775][615]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.18-14.56.05:836][615]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/Metasounds/MSP_LoopST] ([1] browsable assets)...
+[2026.04.18-14.56.05:836][615]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/Metasounds/MSP_LoopST]
+[2026.04.18-14.56.05:836][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/Metasounds/MSP_LoopST" FILE="../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/MSP_LoopST.uasset" SILENT=true
+[2026.04.18-14.56.05:897][615]LogSavePackage: Moving output files for package: /Game/Audio/Metasounds/MSP_LoopST
+[2026.04.18-14.56.05:898][615]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/MSP_LoopST6ED95608443200FC1D50FBABD2BF6947.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/MSP_LoopST.uasset'
+[2026.04.18-14.56.05:912][615]LogFileHelpers: InternalPromptForCheckoutAndSave took 136.954 ms (total: 683.468 ms)
+[2026.04.18-14.56.05:992][615]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.18-14.56.05:992][615]LogContentValidation: Enabled validators:
+[2026.04.18-14.56.05:992][615]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.18-14.56.05:992][615]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.18-14.56.05:992][615]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.18-14.56.05:992][615]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.18-14.56.05:992][615]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.18-14.56.05:992][615]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.18-14.56.05:992][615]AssetCheck: /Game/Audio/Metasounds/MSP_LoopST Validating asset
+[2026.04.18-14.56.18:936][372]LogContentBrowser: Attempting asset rename: MSP_LoopST1 -> MSP_LoopM
+[2026.04.18-14.56.19:052][372]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.18-14.56.19:052][372]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/Metasounds/MSP_LoopM] ([1] browsable assets)...
+[2026.04.18-14.56.19:053][372]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/Metasounds/MSP_LoopM]
+[2026.04.18-14.56.19:053][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/Metasounds/MSP_LoopM" FILE="../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/MSP_LoopM.uasset" SILENT=true
+[2026.04.18-14.56.19:107][372]LogSavePackage: Moving output files for package: /Game/Audio/Metasounds/MSP_LoopM
+[2026.04.18-14.56.19:107][372]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/MSP_LoopM63AB4C3D45A4F75AAD41C98247E7CD98.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/MSP_LoopM.uasset'
+[2026.04.18-14.56.19:108][372]LogFileHelpers: InternalPromptForCheckoutAndSave took 56.257 ms (total: 739.726 ms)
+[2026.04.18-14.56.19:176][372]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2026.04.18-14.56.19:204][372]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2026.04.18-14.56.19:225][372]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2026.04.18-14.56.19:303][372]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.18-14.56.19:303][372]LogContentValidation: Enabled validators:
+[2026.04.18-14.56.19:303][372]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.18-14.56.19:303][372]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.18-14.56.19:303][372]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.18-14.56.19:303][372]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.18-14.56.19:303][372]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.18-14.56.19:303][372]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.18-14.56.19:303][372]AssetCheck: /Game/Audio/Metasounds/MSP_LoopM Validating asset
+[2026.04.18-14.56.19:350][372]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/SourceControl/UncontrolledChangelists.json
+[2026.04.18-14.56.20:054][410]LogAssetEditorSubsystem: Opening Asset editor for MetaSoundPatch /Game/Audio/Metasounds/MSP_LoopM.MSP_LoopM
+[2026.04.18-14.56.20:136][410]LogSlate: The tab "MetasoundEditor_Pages" attempted to spawn in layout 'Standalone_MetasoundEditor_Layout_v15' but failed for some reason. It will not be displayed.
+[2026.04.18-14.56.20:136][410]LogSlate: The tab "MetasoundEditor_UserPresetWidget" attempted to spawn in layout 'Standalone_MetasoundEditor_Layout_v15' but failed for some reason. It will not be displayed.
+[2026.04.18-14.56.20:136][410]LogSlate: The tab "MetasoundEditor_UserPresetWidget" attempted to spawn in layout 'Standalone_MetasoundEditor_Layout_v15' but failed for some reason. It will not be displayed.
+[2026.04.18-14.56.30:657][739]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphOutputNode:Output: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphOutput'Member_651E29EB40F95E3656E467B4988D21E4'"'
+[2026.04.18-14.56.30:658][739]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_B97B47464C91956242894B821D1461AF'"'
+[2026.04.18-14.56.30:659][739]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_C7A0BE3C44A5B7EB627A01A35655A3D7'"'
+[2026.04.18-14.56.30:659][739]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_727D034F42D8E24F835CDF83AEE9B99F'"'
+[2026.04.18-14.56.30:660][739]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_E188D4D3409AD1F5A50B268C0BEF47B6'"'
+[2026.04.18-14.56.30:660][739]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_AD823D25449C2020DD2C3AABEC3D9033'"'
+[2026.04.18-14.56.30:660][739]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphOutputNode:Output: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphOutput'Member_034170EF44BD738309F7548D933D772D'"'
+[2026.04.18-14.56.30:660][739]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_D7DEF6D7439ACEA8BB9DBCA4BB28268E'"'
+[2026.04.18-14.56.30:660][739]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphOutputNode:Output: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphOutput'Member_3902916048D6057211BBC9B0F357C30B'"'
+[2026.04.18-14.56.30:660][739]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_4BE3A6564F345928FC086185E6777BD8'"'
+[2026.04.18-14.56.30:661][739]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_FB1CB8CB44AC4D6C7A3DA7A5C5DE549B'"'
+[2026.04.18-14.56.30:661][739]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_D64AC0E6497EEA95121CDF84D2482BB0'"'
+[2026.04.18-14.56.30:661][739]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_E1167245428EBB4DDE1CC485066CD069'"'
+[2026.04.18-14.56.30:662][739]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_98F07C664F63EDC4D0FA309FA881104A'"'
+[2026.04.18-14.56.30:662][739]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_98F07C664F63EDC4D0FA309FA881104A'"'
+[2026.04.18-14.56.30:662][739]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_0D743FE64F15DAE6D23503BDEA0673E0'"'
+[2026.04.18-14.56.30:662][739]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_0D743FE64F15DAE6D23503BDEA0673E0'"'
+[2026.04.18-14.56.30:662][739]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_2323505F4BE11EEDD041F1B21AB0C67A'"'
+[2026.04.18-14.56.30:662][739]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_2323505F4BE11EEDD041F1B21AB0C67A'"'
+[2026.04.18-14.56.30:662][739]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_347FAADE4C3A62506149D6926C56023F'"'
+[2026.04.18-14.56.30:662][739]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_347FAADE4C3A62506149D6926C56023F'"'
+[2026.04.18-14.56.30:663][739]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_ED8007614C0EF1F174167493F131618F'"'
+[2026.04.18-14.56.30:664][739]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_D64AC0E6497EEA95121CDF84D2482BB0'"'
+[2026.04.18-14.56.30:664][739]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_D64AC0E6497EEA95121CDF84D2482BB0'"'
+[2026.04.18-14.56.30:665][739]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_8963838E4F22097BBA5B5EB6195FD461'"'
+[2026.04.18-14.56.30:668][739]LogStreaming: Display: FlushAsyncLoading(449): 1 QueuedPackages, 0 AsyncPackages
+[2026.04.18-14.56.30:669][739]LogStreaming: Warning: LoadPackage: SkipPackage: /Game/Audio/Metasound/Patch/MSP_Loop_Mono (0x55C43352A9F65C47) - The package to load does not exist on disk or in the loader
+[2026.04.18-14.56.30:669][739]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Audio/Metasound/Patch/MSP_Loop_Mono.MSP_Loop_Mono'
+[2026.04.18-14.56.34:589][ 52]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.18-14.56.34:646][ 52]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/Metasounds/MSP_LoopM] ([1] browsable assets)...
+[2026.04.18-14.56.34:646][ 52]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/Metasounds/MSP_LoopM]
+[2026.04.18-14.56.34:646][ 52]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/Metasounds/MSP_LoopM" FILE="../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/MSP_LoopM.uasset" SILENT=true
+[2026.04.18-14.56.34:703][ 52]LogSavePackage: Moving output files for package: /Game/Audio/Metasounds/MSP_LoopM
+[2026.04.18-14.56.34:704][ 52]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/MSP_LoopM60C275C54347DE3310C145AC14155DE1.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/MSP_LoopM.uasset'
+[2026.04.18-14.56.34:716][ 52]LogFileHelpers: InternalPromptForCheckoutAndSave took 127.546 ms (total: 867.272 ms)
+[2026.04.18-14.56.34:787][ 52]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.18-14.56.34:787][ 52]LogContentValidation: Enabled validators:
+[2026.04.18-14.56.34:787][ 52]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.18-14.56.34:787][ 52]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.18-14.56.34:787][ 52]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.18-14.56.34:787][ 52]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.18-14.56.34:787][ 52]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.18-14.56.34:787][ 52]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.18-14.56.34:787][ 52]AssetCheck: /Game/Audio/Metasounds/MSP_LoopM Validating asset
+[2026.04.18-14.57.10:873][713]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1038.040405
+[2026.04.18-14.57.11:056][728]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.18-14.57.11:056][728]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1038.209351, Update Interval: 350.873749
+[2026.04.18-14.57.13:896][946]LogContentBrowser: Attempting asset rename: MSP_OneShotST1 -> MSP_OneShotRFX_M
+[2026.04.18-14.57.14:013][946]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.18-14.57.14:013][946]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/Metasounds/MSP_OneShotRFX_M] ([1] browsable assets)...
+[2026.04.18-14.57.14:014][946]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/Metasounds/MSP_OneShotRFX_M]
+[2026.04.18-14.57.14:060][946]LogSavePackage: Moving output files for package: /Game/Audio/Metasounds/MSP_OneShotRFX_M
+[2026.04.18-14.57.14:060][946]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/MSP_OneShotRFX_M9A7F82C54A1C76F5D2704F8874ADB295.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/MSP_OneShotRFX_M.uasset'
+[2026.04.18-14.57.14:063][946]LogFileHelpers: InternalPromptForCheckoutAndSave took 50.285 ms (total: 917.557 ms)
+[2026.04.18-14.57.14:143][946]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2026.04.18-14.57.14:169][946]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2026.04.18-14.57.14:191][946]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.04.18-14.57.14:293][946]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.18-14.57.14:293][946]LogContentValidation: Enabled validators:
+[2026.04.18-14.57.14:294][946]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.18-14.57.14:294][946]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.18-14.57.14:294][946]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.18-14.57.14:294][946]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.18-14.57.14:294][946]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.18-14.57.14:294][946]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.18-14.57.14:294][946]AssetCheck: /Game/Audio/Metasounds/MSP_OneShotRFX_M Validating asset
+[2026.04.18-14.57.14:338][946]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/SourceControl/UncontrolledChangelists.json
+[2026.04.18-14.57.17:318][ 19]LogAssetEditorSubsystem: Opening Asset editor for MetaSoundPatch /Game/Audio/Metasounds/MSP_OneShotRFX_M.MSP_OneShotRFX_M
+[2026.04.18-14.57.17:386][ 19]LogSlate: The tab "MetasoundEditor_Pages" attempted to spawn in layout 'Standalone_MetasoundEditor_Layout_v15' but failed for some reason. It will not be displayed.
+[2026.04.18-14.57.17:386][ 19]LogSlate: The tab "MetasoundEditor_UserPresetWidget" attempted to spawn in layout 'Standalone_MetasoundEditor_Layout_v15' but failed for some reason. It will not be displayed.
+[2026.04.18-14.57.17:386][ 19]LogSlate: The tab "MetasoundEditor_UserPresetWidget" attempted to spawn in layout 'Standalone_MetasoundEditor_Layout_v15' but failed for some reason. It will not be displayed.
+[2026.04.18-14.57.27:590][768]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphOutputNode:Output: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphOutput'Member_9DA1B46D4B00D7EB3A50C093DE7E83A1'"'
+[2026.04.18-14.57.27:590][768]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_8C86B9364A330B4082DD68BC4B840B83'"'
+[2026.04.18-14.57.27:590][768]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_22CD98F94F43CEDED8F3DA89659788FA'"'
+[2026.04.18-14.57.27:591][768]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_428739BF4011ED300DEE1A8A42A5D7D7'"'
+[2026.04.18-14.57.27:591][768]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_22CD98F94F43CEDED8F3DA89659788FA'"'
+[2026.04.18-14.57.27:591][768]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_F5668902445EB94D4413BABFA0BB1C5E'"'
+[2026.04.18-14.57.27:591][768]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_9CAFC400416ACC840D3A14801FDF38C5'"'
+[2026.04.18-14.57.27:592][768]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_CD15736840464E4B9547DB934DCD1105'"'
+[2026.04.18-14.57.27:592][768]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_17E1438C4526ED9D34F54A97ABA9208B'"'
+[2026.04.18-14.57.27:592][768]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_6D4FC1604777FE17B5342BB5A31B7BA0'"'
+[2026.04.18-14.57.27:592][768]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphOutputNode:Output: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphOutput'Member_1AFBC48142809313BCA331954D0CE707'"'
+[2026.04.18-14.57.27:592][768]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphOutputNode:Output: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphOutput'Member_4CD3018A41688BCB4228748AF45E4649'"'
+[2026.04.18-14.57.27:592][768]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_469F8297450C716BA124EBBC278299A8'"'
+[2026.04.18-14.57.27:592][768]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_95B16BFB405992C66DD0D2BAA4278100'"'
+[2026.04.18-14.57.27:592][768]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_95B16BFB405992C66DD0D2BAA4278100'"'
+[2026.04.18-14.57.27:592][768]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_492EF0814330C622B358E7BAAAB65B4D'"'
+[2026.04.18-14.57.27:593][768]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_492EF0814330C622B358E7BAAAB65B4D'"'
+[2026.04.18-14.57.27:593][768]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_F48B65B347F3490B7F01E893463B7CB7'"'
+[2026.04.18-14.57.27:593][768]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_F48B65B347F3490B7F01E893463B7CB7'"'
+[2026.04.18-14.57.27:593][768]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_A186F00549C6C051C7EED7AE956C30E4'"'
+[2026.04.18-14.57.27:593][768]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_A186F00549C6C051C7EED7AE956C30E4'"'
+[2026.04.18-14.57.27:595][768]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_F3A796FE44C723CCDE696B900A8D1FDF'"'
+[2026.04.18-14.57.27:596][768]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphOutputNode:Output: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphOutput'Member_925A94E34A9ED60B86CFE9B1640C2DF2'"'
+[2026.04.18-14.57.27:596][768]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_9A6840DF466AF189BE8A69B0048AF693'"'
+[2026.04.18-14.57.27:596][768]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_4325495449F6EB44DA927194D74BD4F1'"'
+[2026.04.18-14.57.27:598][768]LogStreaming: Display: FlushAsyncLoading(452): 1 QueuedPackages, 0 AsyncPackages
+[2026.04.18-14.57.36:204][153]LogContentBrowser: Attempting asset rename: MSP_OneShotRFX_M1 -> MSP_OneShotRFX_ST
+[2026.04.18-14.57.36:317][153]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.18-14.57.36:318][153]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/Metasounds/MSP_OneShotRFX_ST] ([1] browsable assets)...
+[2026.04.18-14.57.36:318][153]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/Metasounds/MSP_OneShotRFX_ST]
+[2026.04.18-14.57.36:372][153]LogSavePackage: Moving output files for package: /Game/Audio/Metasounds/MSP_OneShotRFX_ST
+[2026.04.18-14.57.36:372][153]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/MSP_OneShotRFX_ST0C3C2685495D27AE51A87BB80C8B6E73.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/MSP_OneShotRFX_ST.uasset'
+[2026.04.18-14.57.36:374][153]LogFileHelpers: InternalPromptForCheckoutAndSave took 56.388 ms (total: 973.945 ms)
+[2026.04.18-14.57.36:441][153]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2026.04.18-14.57.36:472][153]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2026.04.18-14.57.36:499][153]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2026.04.18-14.57.36:576][153]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.18-14.57.36:576][153]LogContentValidation: Enabled validators:
+[2026.04.18-14.57.36:576][153]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.18-14.57.36:576][153]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.18-14.57.36:576][153]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.18-14.57.36:576][153]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.18-14.57.36:576][153]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.18-14.57.36:576][153]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.18-14.57.36:576][153]AssetCheck: /Game/Audio/Metasounds/MSP_OneShotRFX_ST Validating asset
+[2026.04.18-14.57.36:627][153]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/SourceControl/UncontrolledChangelists.json
+[2026.04.18-14.57.37:363][192]LogAssetEditorSubsystem: Opening Asset editor for MetaSoundPatch /Game/Audio/Metasounds/MSP_OneShotRFX_ST.MSP_OneShotRFX_ST
+[2026.04.18-14.57.37:450][192]LogSlate: The tab "MetasoundEditor_Pages" attempted to spawn in layout 'Standalone_MetasoundEditor_Layout_v15' but failed for some reason. It will not be displayed.
+[2026.04.18-14.57.37:451][192]LogSlate: The tab "MetasoundEditor_UserPresetWidget" attempted to spawn in layout 'Standalone_MetasoundEditor_Layout_v15' but failed for some reason. It will not be displayed.
+[2026.04.18-14.57.37:451][192]LogSlate: The tab "MetasoundEditor_UserPresetWidget" attempted to spawn in layout 'Standalone_MetasoundEditor_Layout_v15' but failed for some reason. It will not be displayed.
+[2026.04.18-14.57.54:890][534]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.18-14.57.54:943][534]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/Metasounds/MSP_OneShotRFX_M] ([1] browsable assets)...
+[2026.04.18-14.57.54:944][534]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/Metasounds/MSP_OneShotRFX_M]
+[2026.04.18-14.57.54:997][534]LogSavePackage: Moving output files for package: /Game/Audio/Metasounds/MSP_OneShotRFX_M
+[2026.04.18-14.57.54:998][534]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/MSP_OneShotRFX_M81E33D174735B1653D07738674962C78.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/MSP_OneShotRFX_M.uasset'
+[2026.04.18-14.57.55:007][534]LogFileHelpers: InternalPromptForCheckoutAndSave took 117.014 ms (total: 1.09 sec)
+[2026.04.18-14.57.55:079][534]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.18-14.57.55:079][534]LogContentValidation: Enabled validators:
+[2026.04.18-14.57.55:079][534]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.18-14.57.55:079][534]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.18-14.57.55:079][534]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.18-14.57.55:079][534]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.18-14.57.55:079][534]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.18-14.57.55:079][534]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.18-14.57.55:080][534]AssetCheck: /Game/Audio/Metasounds/MSP_OneShotRFX_M Validating asset
+[2026.04.18-14.58.16:006][ 95]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2026.04.18-14.58.16:026][ 95]LogContentBrowser: Creating deferred item: NewFolder
+[2026.04.18-14.58.16:053][ 96]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2026.04.18-14.58.18:464][239]LogContentBrowser: Attempting asset rename: NewFolder -> Patch
+[2026.04.18-14.58.18:465][239]LogContentBrowser: End creating deferred item NewFolder
+[2026.04.18-14.58.25:114][560]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.18-14.58.25:114][560]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/Metasounds/Patch/MSP_LoopM] ([1] browsable assets)...
+[2026.04.18-14.58.25:114][560]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/Metasounds/Patch/MSP_LoopM]
+[2026.04.18-14.58.25:171][560]LogSavePackage: Moving output files for package: /Game/Audio/Metasounds/Patch/MSP_LoopM
+[2026.04.18-14.58.25:171][560]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/MSP_LoopM3930A89D43A523E3FC4FB08C795BD722.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/Patch/MSP_LoopM.uasset'
+[2026.04.18-14.58.25:174][560]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/Metasounds/Patch/MSP_LoopST] ([1] browsable assets)...
+[2026.04.18-14.58.25:174][560]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/Metasounds/Patch/MSP_LoopST]
+[2026.04.18-14.58.25:230][560]LogSavePackage: Moving output files for package: /Game/Audio/Metasounds/Patch/MSP_LoopST
+[2026.04.18-14.58.25:230][560]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/MSP_LoopST8C12EEA14376DB450FD355810833E1E5.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/Patch/MSP_LoopST.uasset'
+[2026.04.18-14.58.25:232][560]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/Metasounds/Patch/MSP_OneShotM] ([1] browsable assets)...
+[2026.04.18-14.58.25:232][560]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/Metasounds/Patch/MSP_OneShotM]
+[2026.04.18-14.58.25:287][560]LogSavePackage: Moving output files for package: /Game/Audio/Metasounds/Patch/MSP_OneShotM
+[2026.04.18-14.58.25:287][560]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/MSP_OneShotM9AD3B3144E3BCE3D0FEF5C8E308995D8.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/Patch/MSP_OneShotM.uasset'
+[2026.04.18-14.58.25:289][560]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/Metasounds/Patch/MSP_OneShotRFX_M] ([1] browsable assets)...
+[2026.04.18-14.58.25:289][560]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/Metasounds/Patch/MSP_OneShotRFX_M]
+[2026.04.18-14.58.25:344][560]LogSavePackage: Moving output files for package: /Game/Audio/Metasounds/Patch/MSP_OneShotRFX_M
+[2026.04.18-14.58.25:344][560]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/MSP_OneShotRFX_ME236B6CE405F9A92C7FA0FB634940172.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/Patch/MSP_OneShotRFX_M.uasset'
+[2026.04.18-14.58.25:347][560]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/Metasounds/Patch/MSP_OneShotRFX_ST] ([1] browsable assets)...
+[2026.04.18-14.58.25:347][560]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/Metasounds/Patch/MSP_OneShotRFX_ST]
+[2026.04.18-14.58.25:405][560]LogSavePackage: Moving output files for package: /Game/Audio/Metasounds/Patch/MSP_OneShotRFX_ST
+[2026.04.18-14.58.25:405][560]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/MSP_OneShotRFX_ST71D561274A8A4047F89890BD7BA5F368.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/Patch/MSP_OneShotRFX_ST.uasset'
+[2026.04.18-14.58.25:407][560]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/Metasounds/Patch/MSP_OneShotST] ([1] browsable assets)...
+[2026.04.18-14.58.25:407][560]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/Metasounds/Patch/MSP_OneShotST]
+[2026.04.18-14.58.25:454][560]LogSavePackage: Moving output files for package: /Game/Audio/Metasounds/Patch/MSP_OneShotST
+[2026.04.18-14.58.25:454][560]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/MSP_OneShotST069F01D54D93CCE69DB2378C88D8B783.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/Patch/MSP_OneShotST.uasset'
+[2026.04.18-14.58.25:456][560]LogFileHelpers: InternalPromptForCheckoutAndSave took 342.458 ms (total: 1.43 sec)
+[2026.04.18-14.58.25:613][560]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2026.04.18-14.58.25:638][560]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2026.04.18-14.58.25:663][560]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2026.04.18-14.58.25:679][560]LogSlate: Warning: Menu could not be pushed.  A path to the parent widget(SAssetTileItem [SAssetView.cpp(5155)]) could not be found
+[2026.04.18-14.58.25:739][560]LogContentValidation: Display: Starting to validate 6 assets
+[2026.04.18-14.58.25:739][560]LogContentValidation: Enabled validators:
+[2026.04.18-14.58.25:739][560]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.18-14.58.25:739][560]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.18-14.58.25:739][560]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.18-14.58.25:739][560]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.18-14.58.25:739][560]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.18-14.58.25:739][560]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.18-14.58.25:739][560]AssetCheck: /Game/Audio/Metasounds/Patch/MSP_LoopM Validating asset
+[2026.04.18-14.58.25:739][560]AssetCheck: /Game/Audio/Metasounds/Patch/MSP_LoopST Validating asset
+[2026.04.18-14.58.25:740][560]AssetCheck: /Game/Audio/Metasounds/Patch/MSP_OneShotM Validating asset
+[2026.04.18-14.58.25:740][560]AssetCheck: /Game/Audio/Metasounds/Patch/MSP_OneShotRFX_M Validating asset
+[2026.04.18-14.58.25:740][560]AssetCheck: /Game/Audio/Metasounds/Patch/MSP_OneShotRFX_ST Validating asset
+[2026.04.18-14.58.25:740][560]AssetCheck: /Game/Audio/Metasounds/Patch/MSP_OneShotST Validating asset
+[2026.04.18-14.58.25:766][560]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/SourceControl/UncontrolledChangelists.json
+[2026.04.18-14.59.26:074][866]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2026.04.18-14.59.41:077][205]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2026.04.18-14.59.41:097][205]LogContentBrowser: Creating deferred item: NewFolder
+[2026.04.18-14.59.41:123][206]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2026.04.18-14.59.44:769][399]LogContentBrowser: Attempting asset rename: NewFolder -> Soundclass
+[2026.04.18-14.59.44:770][399]LogContentBrowser: End creating deferred item NewFolder
+[2026.04.18-15.03.10:961][648]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1398.126221
+[2026.04.18-15.03.11:961][651]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.18-15.03.11:961][651]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1398.794922, Update Interval: 329.528503
+[2026.04.18-15.09.13:008][734]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1760.172852
+[2026.04.18-15.09.14:009][737]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.18-15.09.14:010][737]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1760.841064, Update Interval: 316.479980
+[2026.04.18-15.11.16:095][634]LogContentBrowser: Deferred new asset file creation: NewMetaSoundSource
+[2026.04.18-15.11.16:115][634]LogContentBrowser: Creating deferred item: NewMetaSoundSource
+[2026.04.18-15.11.16:173][636]LogContentBrowser: Renaming the item being created (Deferred Item: NewMetaSoundSource).
+[2026.04.18-15.11.20:007][797]LogContentBrowser: Attempting asset rename: NewMetaSoundSource -> MSS_Test
+[2026.04.18-15.11.20:026][797]LogContentBrowser: End creating deferred item NewMetaSoundSource
+[2026.04.18-15.11.21:037][837]LogSlate: Took 0.008773 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2026.04.18-15.11.21:168][841]LogAssetEditorSubsystem: Opening Asset editor for MetaSoundSource /Game/Audio/Metasounds/Soundsource/MSS_Test.MSS_Test
+[2026.04.18-15.11.21:388][841]LogSlate: The tab "MetasoundEditor_Pages" attempted to spawn in layout 'Standalone_MetasoundEditor_Layout_v15' but failed for some reason. It will not be displayed.
+[2026.04.18-15.11.21:388][841]LogSlate: The tab "MetasoundEditor_UserPresetWidget" attempted to spawn in layout 'Standalone_MetasoundEditor_Layout_v15' but failed for some reason. It will not be displayed.
+[2026.04.18-15.11.21:388][841]LogSlate: The tab "MetasoundEditor_UserPresetWidget" attempted to spawn in layout 'Standalone_MetasoundEditor_Layout_v15' but failed for some reason. It will not be displayed.
+[2026.04.18-15.11.47:933][793]LogAssetEditorSubsystem: Opening Asset editor for MetaSoundPatch /Game/Audio/Metasounds/Patch/MSP_OneShotM.MSP_OneShotM
+[2026.04.18-15.11.48:038][793]LogSlate: The tab "MetasoundEditor_Pages" attempted to spawn in layout 'Standalone_MetasoundEditor_Layout_v15' but failed for some reason. It will not be displayed.
+[2026.04.18-15.11.48:039][793]LogSlate: The tab "MetasoundEditor_UserPresetWidget" attempted to spawn in layout 'Standalone_MetasoundEditor_Layout_v15' but failed for some reason. It will not be displayed.
+[2026.04.18-15.11.48:039][793]LogSlate: The tab "MetasoundEditor_UserPresetWidget" attempted to spawn in layout 'Standalone_MetasoundEditor_Layout_v15' but failed for some reason. It will not be displayed.
+[2026.04.18-15.12.22:673][436]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphOutputNode:Output: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphOutput'Member_06BEC19C45F9380AC6B2808145231B7A'"'
+[2026.04.18-15.12.22:675][436]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_AA439D0A48A3D6CC920129986D1F8278'"'
+[2026.04.18-15.12.22:676][436]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_4C287F64425292DB4FAA14954655AB02'"'
+[2026.04.18-15.12.22:676][436]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_60D4114242BA9B338D57DFA5AF93F87D'"'
+[2026.04.18-15.12.22:677][436]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_C7D8ABD04A344094448B998B00D64ABB'"'
+[2026.04.18-15.12.22:677][436]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphOutputNode:Output: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphOutput'Member_2A4DE7794F4DD9232D3C56B2C4BC2071'"'
+[2026.04.18-15.12.22:678][436]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_982DAF2F4DCA462323FE06A46379E1DC'"'
+[2026.04.18-15.12.22:679][436]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_F2080EB842893127E1C83CB5F6C94BCE'"'
+[2026.04.18-15.12.22:680][436]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_E58BC43446C89021FCD1FD947FAF0E4B'"'
+[2026.04.18-15.12.22:681][436]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_400284DE45750FADFABB658D599BE12B'"'
+[2026.04.18-15.12.22:681][436]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphOutputNode:Output: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphOutput'Member_4E94B3A34B9F74457A2979B2F9A12CC8'"'
+[2026.04.18-15.12.22:682][436]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphOutputNode:Output: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphOutput'Member_218F4AE34567481E2514BBB25911910F'"'
+[2026.04.18-15.12.22:682][436]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphInputNode:Input: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphInput'Member_EC2A60F94974953B6C9478AC09BA7DDA'"'
+[2026.04.18-15.12.22:683][436]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_AED3BFF9479663E068CAB58801174522'"'
+[2026.04.18-15.12.22:683][436]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_AED3BFF9479663E068CAB58801174522'"'
+[2026.04.18-15.12.22:683][436]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_D702E0844936CFB8DA7995AE4AAF672E'"'
+[2026.04.18-15.12.22:683][436]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_D702E0844936CFB8DA7995AE4AAF672E'"'
+[2026.04.18-15.12.22:684][436]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_BC7DF8D7435AE97A3FF12A900D5D8DC9'"'
+[2026.04.18-15.12.22:684][436]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_BC7DF8D7435AE97A3FF12A900D5D8DC9'"'
+[2026.04.18-15.12.22:684][436]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_F85E987E4B0709618F1DE085EE60BFD7'"'
+[2026.04.18-15.12.22:684][436]LogProperty: Warning: ObjectProperty /Script/MetasoundEditor.MetasoundEditorGraphVariableNode:Variable: unresolved reference to '"/Script/MetasoundEditor.MetasoundEditorGraphVariable'Member_F85E987E4B0709618F1DE085EE60BFD7'"'
+[2026.04.18-15.12.24:323][494]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.18-15.12.24:380][494]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/Metasounds/Patch/MSP_OneShotM] ([1] browsable assets)...
+[2026.04.18-15.12.24:380][494]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/Metasounds/Patch/MSP_OneShotM]
+[2026.04.18-15.12.24:437][494]LogSavePackage: Moving output files for package: /Game/Audio/Metasounds/Patch/MSP_OneShotM
+[2026.04.18-15.12.24:439][494]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/MSP_OneShotMAD67178640FFDD848D9B5599D0B42117.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/Patch/MSP_OneShotM.uasset'
+[2026.04.18-15.12.24:453][494]LogFileHelpers: InternalPromptForCheckoutAndSave took 130.173 ms (total: 1.56 sec)
+[2026.04.18-15.12.24:518][494]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.18-15.12.24:518][494]LogContentValidation: Enabled validators:
+[2026.04.18-15.12.24:518][494]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.18-15.12.24:518][494]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.18-15.12.24:518][494]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.18-15.12.24:519][494]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.18-15.12.24:519][494]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.18-15.12.24:519][494]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.18-15.12.24:519][494]AssetCheck: /Game/Audio/Metasounds/Patch/MSP_OneShotM Validating asset
+[2026.04.18-15.12.50:044][480]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.18-15.12.50:105][480]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/Metasounds/Patch/MSP_OneShotM] ([1] browsable assets)...
+[2026.04.18-15.12.50:105][480]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/Metasounds/Patch/MSP_OneShotM]
+[2026.04.18-15.12.50:158][480]LogSavePackage: Moving output files for package: /Game/Audio/Metasounds/Patch/MSP_OneShotM
+[2026.04.18-15.12.50:159][480]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/MSP_OneShotMEC0529D64590B127C2D5F7B819BB5500.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/Patch/MSP_OneShotM.uasset'
+[2026.04.18-15.12.50:179][480]LogFileHelpers: InternalPromptForCheckoutAndSave took 134.269 ms (total: 1.69 sec)
+[2026.04.18-15.12.50:242][480]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.18-15.12.50:242][480]LogContentValidation: Enabled validators:
+[2026.04.18-15.12.50:242][480]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.18-15.12.50:242][480]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.18-15.12.50:242][480]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.18-15.12.50:242][480]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.18-15.12.50:242][480]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.18-15.12.50:242][480]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.18-15.12.50:242][480]AssetCheck: /Game/Audio/Metasounds/Patch/MSP_OneShotM Validating asset
+[2026.04.18-15.13.01:917][795]LogAssetEditorSubsystem: Opening Asset editor for MetaSoundSource /Game/Audio/Metasounds/Soundsource/MSS_Test.MSS_Test
+[2026.04.18-15.13.01:974][795]LogSlate: The tab "MetasoundEditor_Pages" attempted to spawn in layout 'Standalone_MetasoundEditor_Layout_v15' but failed for some reason. It will not be displayed.
+[2026.04.18-15.13.01:975][795]LogSlate: The tab "MetasoundEditor_UserPresetWidget" attempted to spawn in layout 'Standalone_MetasoundEditor_Layout_v15' but failed for some reason. It will not be displayed.
+[2026.04.18-15.13.01:975][795]LogSlate: The tab "MetasoundEditor_UserPresetWidget" attempted to spawn in layout 'Standalone_MetasoundEditor_Layout_v15' but failed for some reason. It will not be displayed.
+[2026.04.18-15.14.56:280][ 22]LogSlate: Took 0.001105 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2026.04.18-15.14.56:358][ 23]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 C:/Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Wavs/FOL_Jump_Dirt_01.wav)
+[2026.04.18-15.14.56:418][ 23]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_-1_END wave FOL_Jump_Dirt_01...
+[2026.04.18-15.14.56:427][ 23]LogAudioDerivedData: Display: FOL_Jump_Dirt_01 compressed to 14.35% (from 94KB to 13KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2026.04.18-15.14.56:427][ 23]LogAudio: Display: Chunk stats for (SoundWave /Game/Audio/Wavs/FOL_Jump_Dirt_01.FOL_Jump_Dirt_01: Duration=0.50 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=13857 bytes, ChunkN=0)
+[2026.04.18-15.14.56:478][ 24]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.18-15.14.56:619][ 24]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Audio/Wavs/FOL_Jump_Dirt_01] ([1] browsable assets)...
+[2026.04.18-15.14.56:626][ 24]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Audio/Wavs/FOL_Jump_Dirt_01.FOL_Jump_Dirt_01]
+[2026.04.18-15.14.56:626][ 24]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/Wavs/FOL_Jump_Dirt_01]
+[2026.04.18-15.14.56:626][ 24]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/Wavs/FOL_Jump_Dirt_01" FILE="../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Wavs/FOL_Jump_Dirt_01.uasset" SILENT=true
+[2026.04.18-15.14.56:642][ 24]LogSavePackage: Moving output files for package: /Game/Audio/Wavs/FOL_Jump_Dirt_01
+[2026.04.18-15.14.56:642][ 24]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/FOL_Jump_Dirt_01DB5389A940D003290939E09DD10CA524.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Wavs/FOL_Jump_Dirt_01.uasset'
+[2026.04.18-15.14.56:715][ 24]LogFileHelpers: InternalPromptForCheckoutAndSave took 236.468 ms (total: 1.93 sec)
+[2026.04.18-15.14.56:744][ 24]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/SourceControl/UncontrolledChangelists.json
+[2026.04.18-15.14.56:810][ 25]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.18-15.14.56:810][ 25]LogContentValidation: Enabled validators:
+[2026.04.18-15.14.56:810][ 25]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.18-15.14.56:810][ 25]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.18-15.14.56:810][ 25]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.18-15.14.56:810][ 25]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.18-15.14.56:810][ 25]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.18-15.14.56:810][ 25]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.18-15.14.56:811][ 25]AssetCheck: /Game/Audio/Wavs/FOL_Jump_Dirt_01 Validating asset
+[2026.04.18-15.14.59:721][125]AssetReimport: Importing new asset /Game/Audio/Wavs/FOL_Jump_Dirt_01.
+[2026.04.18-15.15.04:960][298]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2112.126709
+[2026.04.18-15.15.05:184][307]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.18-15.15.05:184][307]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2112.326416, Update Interval: 332.430786
+[2026.04.18-15.15.16:217][626]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2026.04.18-15.15.16:242][626]LogContentBrowser: Creating deferred item: NewFolder
+[2026.04.18-15.15.16:277][627]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2026.04.18-15.15.19:598][722]LogContentBrowser: Attempting asset rename: NewFolder -> Soundclass
+[2026.04.18-15.15.19:599][722]LogContentBrowser: End creating deferred item NewFolder
+[2026.04.18-15.15.28:031][928]LogContentBrowser: Deferred new asset file creation: NewSoundClass
+[2026.04.18-15.15.28:063][928]LogContentBrowser: Creating deferred item: NewSoundClass
+[2026.04.18-15.15.28:124][930]LogContentBrowser: Renaming the item being created (Deferred Item: NewSoundClass).
+[2026.04.18-15.15.32:704][102]LogContentBrowser: Attempting asset rename: NewSoundClass -> SC_Master
+[2026.04.18-15.15.32:708][102]LogContentBrowser: End creating deferred item NewSoundClass
+[2026.04.18-15.15.41:218][167]LogAssetEditorSubsystem: Opening Asset editor for SoundClass /Game/Audio/Metasounds/Soundclass/SC_Master.SC_Master
+[2026.04.18-15.16.15:084][283]LogSlate: Window 'Overwrite Existing Object' being destroyed
+[2026.04.18-15.16.53:667][732]LogSlate: Window 'Overwrite Existing Object' being destroyed
+[2026.04.18-15.17.28:274][156]LogUObjectHash: Compacting FUObjectHashTables data took  13.76ms
+[2026.04.18-15.17.28:290][156]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Lvl_FirstPerson' took 0.457
+[2026.04.18-15.17.28:296][156]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/Metasounds/Soundsource/MSS_Test] ([1] browsable assets)...
+[2026.04.18-15.17.28:296][156]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/Metasounds/Soundsource/MSS_Test]
+[2026.04.18-15.17.28:318][156]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Audio/Metasounds/Soundsource/MSS_Test_Auto1
+[2026.04.18-15.17.28:318][156]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/MSS_Test_Auto1C3953BD74654C57413132CA356195055.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/Autosaves/Game/Audio/Metasounds/Soundsource/MSS_Test_Auto1.uasset'
+[2026.04.18-15.17.28:321][156]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/Metasounds/Soundclass/SC_Master] ([1] browsable assets)...
+[2026.04.18-15.17.28:322][156]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/Metasounds/Soundclass/SC_Master]
+[2026.04.18-15.17.28:324][156]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Audio/Metasounds/Soundclass/SC_Master_Auto1
+[2026.04.18-15.17.28:324][156]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/SC_Master_Auto1F5BD9935401AF6110AF6178D67B72847.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/Autosaves/Game/Audio/Metasounds/Soundclass/SC_Master_Auto1.uasset'
+[2026.04.18-15.17.28:328][156]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/Metasounds/Soundclass/SC_AMB] ([1] browsable assets)...
+[2026.04.18-15.17.28:328][156]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/Metasounds/Soundclass/SC_AMB]
+[2026.04.18-15.17.28:330][156]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Audio/Metasounds/Soundclass/SC_AMB_Auto1
+[2026.04.18-15.17.28:330][156]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/SC_AMB_Auto1D337FC444157243B6611F3B108CDC4CD.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/Autosaves/Game/Audio/Metasounds/Soundclass/SC_AMB_Auto1.uasset'
+[2026.04.18-15.17.28:331][156]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/Metasounds/Soundclass/ClassName] ([1] browsable assets)...
+[2026.04.18-15.17.28:332][156]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/Metasounds/Soundclass/ClassName]
+[2026.04.18-15.17.28:333][156]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Audio/Metasounds/Soundclass/ClassName_Auto1
+[2026.04.18-15.17.28:333][156]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/ClassName_Auto1D1A7F7764D4003D65413919E92E1C418.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/Autosaves/Game/Audio/Metasounds/Soundclass/ClassName_Auto1.uasset'
+[2026.04.18-15.17.28:336][156]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/Metasounds/Soundclass/SC_SFX] ([1] browsable assets)...
+[2026.04.18-15.17.28:336][156]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/Metasounds/Soundclass/SC_SFX]
+[2026.04.18-15.17.28:338][156]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Audio/Metasounds/Soundclass/SC_SFX_Auto1
+[2026.04.18-15.17.28:338][156]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/SC_SFX_Auto18F9C31D543A30521BC785896BAF97CF7.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/Autosaves/Game/Audio/Metasounds/Soundclass/SC_SFX_Auto1.uasset'
+[2026.04.18-15.17.28:340][156]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/Metasounds/Soundclass/SC_UI] ([1] browsable assets)...
+[2026.04.18-15.17.28:341][156]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/Metasounds/Soundclass/SC_UI]
+[2026.04.18-15.17.28:342][156]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Audio/Metasounds/Soundclass/SC_UI_Auto1
+[2026.04.18-15.17.28:342][156]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/SC_UI_Auto1932C0EBB4E99431C11094D8C96A1A94F.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/Autosaves/Game/Audio/Metasounds/Soundclass/SC_UI_Auto1.uasset'
+[2026.04.18-15.17.28:346][156]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/Metasounds/Soundclass/SC_FOL] ([1] browsable assets)...
+[2026.04.18-15.17.28:346][156]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/Metasounds/Soundclass/SC_FOL]
+[2026.04.18-15.17.28:348][156]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Audio/Metasounds/Soundclass/SC_FOL_Auto1
+[2026.04.18-15.17.28:348][156]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/SC_FOL_Auto12667E5924C0C627DFA00DEBE106A5009.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/Autosaves/Game/Audio/Metasounds/Soundclass/SC_FOL_Auto1.uasset'
+[2026.04.18-15.17.28:351][156]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/Metasounds/Soundclass/SC_RFX] ([1] browsable assets)...
+[2026.04.18-15.17.28:351][156]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/Metasounds/Soundclass/SC_RFX]
+[2026.04.18-15.17.28:354][156]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Audio/Metasounds/Soundclass/SC_RFX_Auto1
+[2026.04.18-15.17.28:354][156]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/SC_RFX_Auto138A0D27F4897CC3D93332089793C4D3F.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/Autosaves/Game/Audio/Metasounds/Soundclass/SC_RFX_Auto1.uasset'
+[2026.04.18-15.17.28:356][156]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/Metasounds/Soundclass/SC_SP] ([1] browsable assets)...
+[2026.04.18-15.17.28:356][156]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/Metasounds/Soundclass/SC_SP]
+[2026.04.18-15.17.28:358][156]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Audio/Metasounds/Soundclass/SC_SP_Auto1
+[2026.04.18-15.17.28:358][156]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/SC_SP_Auto1697B4A184DDA5B6BFA5D31A75F9BCD89.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/Autosaves/Game/Audio/Metasounds/Soundclass/SC_SP_Auto1.uasset'
+[2026.04.18-15.17.28:359][156]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/Metasounds/Soundclass/SC_PAD] ([1] browsable assets)...
+[2026.04.18-15.17.28:360][156]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/Metasounds/Soundclass/SC_PAD]
+[2026.04.18-15.17.28:362][156]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Audio/Metasounds/Soundclass/SC_PAD_Auto1
+[2026.04.18-15.17.28:362][156]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/SC_PAD_Auto1C2D1D2BC49B846E3BD08498423234EC2.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/Autosaves/Game/Audio/Metasounds/Soundclass/SC_PAD_Auto1.uasset'
+[2026.04.18-15.17.28:363][156]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/Metasounds/Soundclass/SC_FOLEY] ([1] browsable assets)...
+[2026.04.18-15.17.28:363][156]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/Metasounds/Soundclass/SC_FOLEY]
+[2026.04.18-15.17.28:366][156]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Audio/Metasounds/Soundclass/SC_FOLEY_Auto1
+[2026.04.18-15.17.28:366][156]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/SC_FOLEY_Auto1210C905849FBC49DE1510C96A875A097.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/Autosaves/Game/Audio/Metasounds/Soundclass/SC_FOLEY_Auto1.uasset'
+[2026.04.18-15.17.28:368][156]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/Metasounds/Soundclass/SC_FS] ([1] browsable assets)...
+[2026.04.18-15.17.28:368][156]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/Metasounds/Soundclass/SC_FS]
+[2026.04.18-15.17.28:370][156]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Audio/Metasounds/Soundclass/SC_FS_Auto1
+[2026.04.18-15.17.28:370][156]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/SC_FS_Auto1052576894738A2F561B8529A66F46B17.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/Autosaves/Game/Audio/Metasounds/Soundclass/SC_FS_Auto1.uasset'
+[2026.04.18-15.17.28:372][156]LogFileHelpers: Auto-saving content packages took 0.081
+[2026.04.18-15.21.31:487][886]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2498.659912
+[2026.04.18-15.21.32:811][890]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.18-15.21.32:812][890]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2499.648438, Update Interval: 312.550446
+[2026.04.18-15.23.15:189][197]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2026.04.18-15.24.20:829][260]LogSlate: Window 'MSP_OneShotM' being destroyed
+[2026.04.18-15.24.23:316][424]LogSlate: Window 'MSS_Test' being destroyed
+[2026.04.18-15.24.43:310][375]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2026.04.18-15.24.46:234][484]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/FirstPerson/Anims/ABP_FP_Copy.ABP_FP_Copy
+[2026.04.18-15.24.46:236][484]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_6
+[2026.04.18-15.24.46:304][484]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_7
+[2026.04.18-15.24.46:312][484]LogStreaming: Display: FlushAsyncLoading(458): 1 QueuedPackages, 0 AsyncPackages
+[2026.04.18-15.24.46:348][484]LogStaticMesh: Display: Building static mesh Sphere_inversenormals (Required Memory Estimate: 1.522745 MB)...
+[2026.04.18-15.24.46:373][484]LogStaticMesh: Built static mesh [0.03s] /Engine/EditorMeshes/AssetViewer/Sphere_inversenormals.Sphere_inversenormals
+[2026.04.18-15.24.46:479][484]LogStaticMesh: Display: Building static mesh Floor_Mesh (Required Memory Estimate: 0.022237 MB)...
+[2026.04.18-15.24.46:480][484]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/AssetViewer/Floor_Mesh.Floor_Mesh
+[2026.04.18-15.24.46:512][484]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.04.18-15.24.50:075][484]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_8
+[2026.04.18-15.24.50:869][484]LogSlate: Took 0.001011 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2026.04.18-15.24.50:996][485]LogPSOHitching: Encountered 150 PSO creation hitches so far (43 graphics, 107 compute). 0 of them were precached.
+[2026.04.18-15.24.58:295][885]LogAssetEditorSubsystem: Opening Asset editor for ControlRigBlueprint /Game/FirstPerson/Anims/CtrlRig_FPWarp.CtrlRig_FPWarp
+[2026.04.18-15.24.58:296][885]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2026.04.18-15.24.58:357][885]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_10
+[2026.04.18-15.24.58:369][885]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.ControlRigSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.04.18-15.24.58:369][885]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.ControlRigSkeletalMeshComponent_0) Already registered. Aborting.
+[2026.04.18-15.24.58:839][885]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2026.04.18-15.24.59:326][885]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SGraphPanel [SGraphEditorImpl.cpp(740)].
+[2026.04.18-15.24.59:939][885]LogStreaming: Display: FlushAsyncLoading(660): 1 QueuedPackages, 0 AsyncPackages
+[2026.04.18-15.24.59:944][885]LogStaticMesh: Display: Building static mesh ControlRig_HalfCircle_3mm (Required Memory Estimate: 0.235546 MB)...
+[2026.04.18-15.24.59:964][885]LogStaticMesh: Built static mesh [0.02s] /ControlRig/Controls/ControlRig_HalfCircle_3mm.ControlRig_HalfCircle_3mm
+[2026.04.18-15.24.59:971][885]LogStaticMesh: Display: Building static mesh ControlRig_Sphere_solid (Required Memory Estimate: 1.436255 MB)...
+[2026.04.18-15.24.59:987][885]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/ControlRig/Controls/ControlRig_Sphere_solid) ...
+[2026.04.18-15.25.00:209][885]LogStaticMesh: Built static mesh [0.24s] /ControlRig/Controls/ControlRig_Sphere_solid.ControlRig_Sphere_solid
+[2026.04.18-15.25.00:218][885]LogStaticMesh: Display: Building static mesh ControlRig_Circle_3mm (Required Memory Estimate: 0.410624 MB)...
+[2026.04.18-15.25.00:233][885]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/ControlRig/Controls/ControlRig_Circle_3mm) ...
+[2026.04.18-15.25.00:258][885]LogStaticMesh: Built static mesh [0.04s] /ControlRig/Controls/ControlRig_Circle_3mm.ControlRig_Circle_3mm
+[2026.04.18-15.25.00:272][885]LogSlate: Took 0.000848 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2026.04.18-15.25.04:429][100]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2026.04.18-15.25.04:429][100]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.18-15.25.04:448][100]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2026.04.18-15.25.04:448][100]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.18-15.25.04:577][100]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2026.04.18-15.25.05:797][193]LogShaderCompilers: Display: ================================================
+[2026.04.18-15.25.05:797][193]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.04.18-15.25.05:797][193]LogShaderCompilers: Display: Total job queries 2 600, among them cache hits 675 (25.96%), DDC hits 1 833 (70.50%), Duplicates 88 (3.38%)
+[2026.04.18-15.25.05:798][193]LogShaderCompilers: Display: Tracking 1 837 distinct input hashes that result in 1 159 distinct outputs (63.09%)
+[2026.04.18-15.25.05:798][193]LogShaderCompilers: Display: RAM used: 11,77 MiB of 819,20 MiB budget. Usage: 1.44%
+[2026.04.18-15.25.05:798][193]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.04.18-15.25.05:798][193]LogShaderCompilers: Display: Shaders Compiled: 4
+[2026.04.18-15.25.05:798][193]LogShaderCompilers: Display: Jobs assigned 4, completed 4 (100%)
+[2026.04.18-15.25.05:798][193]LogShaderCompilers: Display: Time job spent in pending queue: average 0.10 s, longest 0.15 s
+[2026.04.18-15.25.05:798][193]LogShaderCompilers: Display: Job execution time: average 2.44 s, max 2.98 s
+[2026.04.18-15.25.05:798][193]LogShaderCompilers: Display: Job life time (pending + execution): average 2.54 s, max 3.13
+[2026.04.18-15.25.05:798][193]LogShaderCompilers: Display: Shader code size: total 36,375 KiB, numShaders 4, average 9,094 KiB, min 6,402 KiB, max 11,227 KiB
+[2026.04.18-15.25.05:798][193]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.13 s
+[2026.04.18-15.25.05:798][193]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.02%
+[2026.04.18-15.25.05:798][193]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.04.18-15.25.05:798][193]LogShaderCompilers: Display: Average processing rate: 1.28 jobs/sec
+[2026.04.18-15.25.05:798][193]LogShaderCompilers: Display: Total thread time: 7,976 s
+[2026.04.18-15.25.05:798][193]LogShaderCompilers: Display: Total thread preprocess time: 59,831 s
+[2026.04.18-15.25.05:798][193]LogShaderCompilers: Display: Percentage time preprocessing: 750.18%
+[2026.04.18-15.25.05:798][193]LogShaderCompilers: Display: Effective parallelization: 2.54 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.318072
+[2026.04.18-15.25.05:798][193]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.04.18-15.25.05:798][193]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    2 times, average 2.52 sec, max 2.59 sec, min 2.45 sec)
+[2026.04.18-15.25.05:798][193]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 1.47 sec, max 1.52 sec, min 1.42 sec)
+[2026.04.18-15.25.05:798][193]LogShaderCompilers: Display:                    TVirtualTextureVSBaseColorNormalRoughness (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.04.18-15.25.05:798][193]LogShaderCompilers: Display:                                   TVirtualTextureVSBaseColor (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.04.18-15.25.05:798][193]LogShaderCompilers: Display:                                   TVirtualTexturePSBaseColor (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.04.18-15.25.05:798][193]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.04.18-15.25.05:798][193]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 63.13% of total time (compiled    2 times, average 2.52 sec, max 2.59 sec, min 2.45 sec)
+[2026.04.18-15.25.05:798][193]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 36.87% of total time (compiled    2 times, average 1.47 sec, max 1.52 sec, min 1.42 sec)
+[2026.04.18-15.25.05:798][193]LogShaderCompilers: Display:                                   TVirtualTextureVSBaseColor - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.04.18-15.25.05:798][193]LogShaderCompilers: Display:                                   TVirtualTexturePSBaseColor - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.04.18-15.25.05:798][193]LogShaderCompilers: Display:                     TVirtualTextureVSBaseColorNormalSpecular - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.04.18-15.25.05:798][193]LogShaderCompilers: Display: === Material stats ===
+[2026.04.18-15.25.05:798][193]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.04.18-15.25.05:798][193]LogShaderCompilers: Display: Materials Translated:    148
+[2026.04.18-15.25.05:798][193]LogShaderCompilers: Display: Material Total Translate Time: 0.21 s
+[2026.04.18-15.25.05:798][193]LogShaderCompilers: Display: Material Translation Only: 0.08 s (41%)
+[2026.04.18-15.25.05:798][193]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2026.04.18-15.25.05:798][193]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2026.04.18-15.25.05:798][193]LogShaderCompilers: Display: ================================================
+[2026.04.18-15.25.06:766][256]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Characters/Mannequins/Anims/Unarmed/Jump/MM_Fall_Loop.MM_Fall_Loop
+[2026.04.18-15.25.06:769][256]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2026.04.18-15.25.06:780][256]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2026.04.18-15.25.07:137][256]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_12
+[2026.04.18-15.25.07:928][258]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_13
+[2026.04.18-15.25.08:054][262]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_14
+[2026.04.18-15.27.22:880][781]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2850.046631
+[2026.04.18-15.27.23:870][784]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.18-15.27.23:870][784]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2850.707520, Update Interval: 308.258301
+[2026.04.18-15.27.29:028][799]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2026.04.18-15.27.29:031][799]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Lvl_FirstPerson' took 0.090
+[2026.04.18-15.27.29:035][799]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Right] ([1] browsable assets)...
+[2026.04.18-15.27.29:461][799]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Right.MF_Unarmed_Walk_Right]
+[2026.04.18-15.27.29:461][799]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Right]
+[2026.04.18-15.27.29:513][799]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Right_Auto2
+[2026.04.18-15.27.29:514][799]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/MF_Unarmed_Walk_Right_Auto26489464747678832103AE3844ECCCA26.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/Autosaves/Game/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Right_Auto2.uasset'
+[2026.04.18-15.27.29:518][799]LogFileHelpers: Auto-saving content packages took 0.487
+[2026.04.18-15.27.44:671][ 69]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2026.04.18-15.27.44:710][ 69]LogContentBrowser: Creating deferred item: NewFolder
+[2026.04.18-15.27.44:755][ 70]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2026.04.18-15.27.47:405][188]LogContentBrowser: Attempting asset rename: NewFolder -> AnimNotify
+[2026.04.18-15.27.47:408][188]LogContentBrowser: End creating deferred item NewFolder
+[2026.04.18-15.28.09:324][680]LogSlate: Window 'Pick Parent Class' being destroyed
+[2026.04.18-15.28.09:341][680]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2026.04.18-15.28.09:363][680]LogContentBrowser: Creating deferred item: NewBlueprint
+[2026.04.18-15.28.09:441][682]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2026.04.18-15.28.14:784][915]LogContentBrowser: Attempting asset rename: NewBlueprint -> AN_PlayStep
+[2026.04.18-15.28.14:798][915]LogContentBrowser: End creating deferred item NewBlueprint
+[2026.04.18-15.28.15:957][961]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Audio/AnimNotify/AN_PlayStep.AN_PlayStep
+[2026.04.18-15.28.15:958][961]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_15
+[2026.04.18-15.29.30:110][235]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2026.04.18-15.29.30:122][235]LogContentBrowser: Creating deferred item: NewFolder
+[2026.04.18-15.29.30:139][236]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2026.04.18-15.29.33:200][519]LogContentBrowser: Attempting asset rename: NewFolder -> Audio_BP
+[2026.04.18-15.29.33:202][519]LogContentBrowser: End creating deferred item NewFolder
+[2026.04.18-15.29.41:924][ 66]LogSlate: Window 'Pick Parent Class' being destroyed
+[2026.04.18-15.29.41:933][ 66]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2026.04.18-15.29.41:943][ 66]LogContentBrowser: Creating deferred item: NewBlueprint
+[2026.04.18-15.29.41:991][ 68]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2026.04.18-15.29.48:364][450]LogContentBrowser: Attempting asset rename: NewBlueprint -> AC_
+[2026.04.18-15.29.48:382][450]LogContentBrowser: End creating deferred item NewBlueprint
+[2026.04.18-15.29.49:678][516]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_16
+[2026.04.18-15.29.55:342][  2]LogContentBrowser: Attempting asset rename: AC_ -> AC_CharachterAudioManager
+[2026.04.18-15.29.55:703][  2]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.18-15.29.55:704][  2]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/Metasounds/Audio_BP/AC_CharachterAudioManager] ([2] browsable assets)...
+[2026.04.18-15.29.55:704][  2]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/Metasounds/Audio_BP/AC_CharachterAudioManager]
+[2026.04.18-15.29.55:717][  2]LogSavePackage: Moving output files for package: /Game/Audio/Metasounds/Audio_BP/AC_CharachterAudioManager
+[2026.04.18-15.29.55:717][  2]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/AC_CharachterAudioManagerD36AAA98418F4473EBD3569A6D6D65CB.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/Audio_BP/AC_CharachterAudioManager.uasset'
+[2026.04.18-15.29.55:731][  2]LogFileHelpers: InternalPromptForCheckoutAndSave took 27.893 ms (total: 1.96 sec)
+[2026.04.18-15.29.55:831][  2]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2026.04.18-15.29.55:871][  2]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2026.04.18-15.29.55:906][  2]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2026.04.18-15.29.55:986][  2]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.18-15.29.55:986][  2]LogContentValidation: Enabled validators:
+[2026.04.18-15.29.55:986][  2]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.18-15.29.55:986][  2]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.18-15.29.55:986][  2]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.18-15.29.55:986][  2]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.18-15.29.55:986][  2]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.18-15.29.55:986][  2]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.18-15.29.55:987][  2]AssetCheck: /Game/Audio/Metasounds/Audio_BP/AC_CharachterAudioManager Validating asset
+[2026.04.18-15.29.56:033][  2]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/SourceControl/UncontrolledChangelists.json
+[2026.04.18-15.29.57:138][ 97]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Audio/Metasounds/Audio_BP/AC_CharachterAudioManager.AC_CharachterAudioManager
+[2026.04.18-15.29.57:139][ 97]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_17
+[2026.04.18-15.29.57:203][ 97]LogStreaming: Display: FlushAsyncLoading(664): 1 QueuedPackages, 0 AsyncPackages
+[2026.04.18-15.29.57:207][ 97]LogStaticMesh: Display: Building static mesh PhAT_FloorBox (Required Memory Estimate: 0.024887 MB)...
+[2026.04.18-15.29.57:208][ 97]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/PhAT_FloorBox.PhAT_FloorBox
+[2026.04.18-15.30.14:960][404]LogSlate: Window 'Pick Parent Class' being destroyed
+[2026.04.18-15.30.14:970][404]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2026.04.18-15.30.14:987][404]LogContentBrowser: Creating deferred item: NewBlueprint
+[2026.04.18-15.30.15:007][405]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2026.04.18-15.30.24:441][823]LogContentBrowser: Attempting asset rename: NewBlueprint -> AC_Charache
+[2026.04.18-15.30.24:454][823]LogContentBrowser: End creating deferred item NewBlueprint
+[2026.04.18-15.30.38:539][584]LogContentBrowser: Attempting asset rename: AC_Charache -> AC_AudioCharacterManager
+[2026.04.18-15.30.38:670][584]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.18-15.30.38:670][584]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/Metasounds/Audio_BP/AC_AudioCharacterManager] ([2] browsable assets)...
+[2026.04.18-15.30.38:670][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/Metasounds/Audio_BP/AC_AudioCharacterManager]
+[2026.04.18-15.30.38:674][584]LogSavePackage: Moving output files for package: /Game/Audio/Metasounds/Audio_BP/AC_AudioCharacterManager
+[2026.04.18-15.30.38:674][584]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/AC_AudioCharacterManager0782E7604A407C52E01F4EB85B3286BA.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/Audio_BP/AC_AudioCharacterManager.uasset'
+[2026.04.18-15.30.38:685][584]LogFileHelpers: InternalPromptForCheckoutAndSave took 15.400 ms (total: 1.97 sec)
+[2026.04.18-15.30.38:771][584]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2026.04.18-15.30.38:810][584]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2026.04.18-15.30.38:888][584]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2026.04.18-15.30.38:980][584]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.18-15.30.38:980][584]LogContentValidation: Enabled validators:
+[2026.04.18-15.30.38:980][584]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.18-15.30.38:980][584]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.18-15.30.38:980][584]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.18-15.30.38:980][584]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.18-15.30.38:980][584]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.18-15.30.38:980][584]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.18-15.30.38:980][584]AssetCheck: /Game/Audio/Metasounds/Audio_BP/AC_AudioCharacterManager Validating asset
+[2026.04.18-15.30.39:059][584]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/SourceControl/UncontrolledChangelists.json
+[2026.04.18-15.30.40:679][616]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Audio/Metasounds/Audio_BP/AC_AudioCharacterManager.AC_AudioCharacterManager
+[2026.04.18-15.30.40:680][616]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_18
+[2026.04.18-15.31.25:665][514]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2026.04.18-15.31.29:524][796]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.18-15.31.29:592][796]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/Metasounds/Audio_BP/AC_AudioCharacterManager] ([2] browsable assets)...
+[2026.04.18-15.31.29:592][796]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/Metasounds/Audio_BP/AC_AudioCharacterManager]
+[2026.04.18-15.31.29:604][796]LogSavePackage: Moving output files for package: /Game/Audio/Metasounds/Audio_BP/AC_AudioCharacterManager
+[2026.04.18-15.31.29:605][796]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/AC_AudioCharacterManager6C3108CF4F40D9252EF0C497F2AF7326.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/Audio_BP/AC_AudioCharacterManager.uasset'
+[2026.04.18-15.31.29:620][796]LogFileHelpers: InternalPromptForCheckoutAndSave took 95.454 ms (total: 2.07 sec)
+[2026.04.18-15.31.29:689][796]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.18-15.31.29:689][796]LogContentValidation: Enabled validators:
+[2026.04.18-15.31.29:690][796]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.18-15.31.29:690][796]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.18-15.31.29:690][796]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.18-15.31.29:690][796]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.18-15.31.29:690][796]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.18-15.31.29:690][796]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.18-15.31.29:690][796]AssetCheck: /Game/Audio/Metasounds/Audio_BP/AC_AudioCharacterManager Validating asset
+[2026.04.18-15.31.42:786][401]LogSlate: Took 0.000651 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2026.04.18-15.33.21:533][255]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3208.710449
+[2026.04.18-15.33.22:536][258]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.04.18-15.33.22:539][258]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3209.376953, Update Interval: 331.132538
+[2026.04.18-15.33.35:470][221]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2026.04.18-15.34.07:775][392]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.18-15.34.07:834][392]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/Metasounds/Soundclass/SC_Master] ([1] browsable assets)...
+[2026.04.18-15.34.07:834][392]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/Metasounds/Soundclass/SC_Master]
+[2026.04.18-15.34.07:836][392]LogSavePackage: Moving output files for package: /Game/Audio/Metasounds/Soundclass/SC_Master
+[2026.04.18-15.34.07:836][392]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/SC_MasterD83EFA49435A1ED23C1D1DA847E43210.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/Soundclass/SC_Master.uasset'
+[2026.04.18-15.34.07:849][392]LogFileHelpers: InternalPromptForCheckoutAndSave took 72.972 ms (total: 2.14 sec)
+[2026.04.18-15.34.07:918][392]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.18-15.34.07:918][392]LogContentValidation: Enabled validators:
+[2026.04.18-15.34.07:918][392]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.18-15.34.07:918][392]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.18-15.34.07:918][392]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.18-15.34.07:918][392]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.18-15.34.07:918][392]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.18-15.34.07:918][392]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.18-15.34.07:918][392]AssetCheck: /Game/Audio/Metasounds/Soundclass/SC_Master Validating asset
+[2026.04.18-15.34.07:945][392]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/SourceControl/UncontrolledChangelists.json
+[2026.04.18-15.34.09:938][546]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.18-15.34.09:996][546]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/Metasounds/Soundsource/MSS_Test] ([1] browsable assets)...
+[2026.04.18-15.34.09:996][546]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/Metasounds/Soundsource/MSS_Test]
+[2026.04.18-15.34.10:024][546]LogSavePackage: Moving output files for package: /Game/Audio/Metasounds/Soundsource/MSS_Test
+[2026.04.18-15.34.10:025][546]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/MSS_Test41C31D7846CA71C57A41ECA782F0E94C.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/Soundsource/MSS_Test.uasset'
+[2026.04.18-15.34.10:044][546]LogFileHelpers: InternalPromptForCheckoutAndSave took 106.571 ms (total: 2.25 sec)
+[2026.04.18-15.34.10:108][546]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.18-15.34.10:108][546]LogContentValidation: Enabled validators:
+[2026.04.18-15.34.10:108][546]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.18-15.34.10:108][546]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.18-15.34.10:108][546]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.18-15.34.10:108][546]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.18-15.34.10:108][546]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.18-15.34.10:108][546]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.18-15.34.10:109][546]AssetCheck: /Game/Audio/Metasounds/Soundsource/MSS_Test Validating asset
+[2026.04.18-15.34.10:227][546]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/SourceControl/UncontrolledChangelists.json
+[2026.04.18-15.34.12:405][668]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2026.04.18-15.34.12:406][668]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.18-15.34.12:460][668]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2026.04.18-15.34.12:460][668]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.18-15.34.12:608][668]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2026.04.18-15.34.12:608][668]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.04.18-15.34.12:678][668]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2026.04.18-15.34.15:424][808]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.18-15.34.15:529][808]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Right] ([1] browsable assets)...
+[2026.04.18-15.34.15:529][808]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Right]
+[2026.04.18-15.34.15:555][808]LogSavePackage: Moving output files for package: /Game/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Right
+[2026.04.18-15.34.15:557][808]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/MF_Unarmed_Walk_Right7E628A4941FE1ED899C9FFB5B80E8644.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Right.uasset'
+[2026.04.18-15.34.15:574][808]LogFileHelpers: InternalPromptForCheckoutAndSave took 150.075 ms (total: 2.40 sec)
+[2026.04.18-15.34.15:644][808]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.18-15.34.15:644][808]LogContentValidation: Enabled validators:
+[2026.04.18-15.34.15:644][808]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.18-15.34.15:644][808]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.18-15.34.15:644][808]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.18-15.34.15:644][808]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.18-15.34.15:644][808]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.18-15.34.15:644][808]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.18-15.34.15:645][808]AssetCheck: /Game/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Right Validating asset
+[2026.04.18-15.34.15:681][808]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/SourceControl/UncontrolledChangelists.json
+[2026.04.18-15.34.18:835][  5]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2026.04.18-15.34.19:540][ 70]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.18-15.34.19:607][ 70]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/AnimNotify/AN_PlayStep] ([2] browsable assets)...
+[2026.04.18-15.34.19:607][ 70]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/AnimNotify/AN_PlayStep]
+[2026.04.18-15.34.19:607][ 70]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/AnimNotify/AN_PlayStep" FILE="../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/AnimNotify/AN_PlayStep.uasset" SILENT=true
+[2026.04.18-15.34.19:611][ 70]LogSavePackage: Moving output files for package: /Game/Audio/AnimNotify/AN_PlayStep
+[2026.04.18-15.34.19:611][ 70]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/AN_PlayStepC9F87C6A4C09E24CFC4C5984C06456E8.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/AnimNotify/AN_PlayStep.uasset'
+[2026.04.18-15.34.19:627][ 70]LogFileHelpers: InternalPromptForCheckoutAndSave took 87.573 ms (total: 2.49 sec)
+[2026.04.18-15.34.19:691][ 70]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.18-15.34.19:691][ 70]LogContentValidation: Enabled validators:
+[2026.04.18-15.34.19:691][ 70]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.18-15.34.19:691][ 70]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.18-15.34.19:691][ 70]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.18-15.34.19:691][ 70]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.18-15.34.19:691][ 70]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.18-15.34.19:691][ 70]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.18-15.34.19:691][ 70]AssetCheck: /Game/Audio/AnimNotify/AN_PlayStep Validating asset
+[2026.04.18-15.34.19:715][ 70]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/SourceControl/UncontrolledChangelists.json
+[2026.04.18-15.34.21:250][175]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.18-15.34.21:325][175]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/Metasounds/Audio_BP/AC_CharachterAudioManager] ([2] browsable assets)...
+[2026.04.18-15.34.21:325][175]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/Metasounds/Audio_BP/AC_CharachterAudioManager]
+[2026.04.18-15.34.21:333][175]LogSavePackage: Moving output files for package: /Game/Audio/Metasounds/Audio_BP/AC_CharachterAudioManager
+[2026.04.18-15.34.21:334][175]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/AC_CharachterAudioManagerAF50CB6C4E907A76CDE0FAB12596E8E9.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/Audio_BP/AC_CharachterAudioManager.uasset'
+[2026.04.18-15.34.21:348][175]LogFileHelpers: InternalPromptForCheckoutAndSave took 97.477 ms (total: 2.58 sec)
+[2026.04.18-15.34.21:411][175]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.18-15.34.21:411][175]LogContentValidation: Enabled validators:
+[2026.04.18-15.34.21:411][175]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.18-15.34.21:411][175]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.18-15.34.21:411][175]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.18-15.34.21:411][175]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.18-15.34.21:411][175]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.18-15.34.21:411][175]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.18-15.34.21:411][175]AssetCheck: /Game/Audio/Metasounds/Audio_BP/AC_CharachterAudioManager Validating asset
+[2026.04.18-15.34.22:938][283]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.04.18-15.34.22:998][283]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/Metasounds/Audio_BP/AC_AudioCharacterManager] ([2] browsable assets)...
+[2026.04.18-15.34.22:998][283]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/Metasounds/Audio_BP/AC_AudioCharacterManager]
+[2026.04.18-15.34.23:010][283]LogSavePackage: Moving output files for package: /Game/Audio/Metasounds/Audio_BP/AC_AudioCharacterManager
+[2026.04.18-15.34.23:011][283]LogSavePackage: Moving '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Saved/AC_AudioCharacterManagerE34910044A0E0E0472B1D2A9A9184C55.tmp' to '../../../../Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/Audio_BP/AC_AudioCharacterManager.uasset'
+[2026.04.18-15.34.23:023][283]LogFileHelpers: InternalPromptForCheckoutAndSave took 84.745 ms (total: 2.67 sec)
+[2026.04.18-15.34.23:085][283]LogContentValidation: Display: Starting to validate 1 assets
+[2026.04.18-15.34.23:085][283]LogContentValidation: Enabled validators:
+[2026.04.18-15.34.23:085][283]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.04.18-15.34.23:085][283]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.04.18-15.34.23:085][283]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.04.18-15.34.23:085][283]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.04.18-15.34.23:085][283]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.04.18-15.34.23:085][283]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.04.18-15.34.23:086][283]AssetCheck: /Game/Audio/Metasounds/Audio_BP/AC_AudioCharacterManager Validating asset

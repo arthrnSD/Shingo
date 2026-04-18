@@ -1,0 +1,30 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/MSP_OneShotM.uasset",
+				"C:/Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/MSP_OneShotST.uasset",
+				"C:/Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/MSP_LoopST.uasset",
+				"C:/Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/MSP_LoopM.uasset",
+				"C:/Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/MSP_OneShotRFX_M.uasset",
+				"C:/Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/MSP_OneShotRFX_ST.uasset",
+				"C:/Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/Patch/MSP_LoopM.uasset",
+				"C:/Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/Patch/MSP_LoopST.uasset",
+				"C:/Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/Patch/MSP_OneShotM.uasset",
+				"C:/Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/Patch/MSP_OneShotRFX_M.uasset",
+				"C:/Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/Patch/MSP_OneShotRFX_ST.uasset",
+				"C:/Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/Patch/MSP_OneShotST.uasset",
+				"C:/Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Wavs/FOL_Jump_Dirt_01.uasset",
+				"C:/Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/Audio_BP/AC_CharachterAudioManager.uasset",
+				"C:/Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/Audio_BP/AC_AudioCharacterManager.uasset",
+				"C:/Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/Soundclass/SC_Master.uasset",
+				"C:/Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/Metasounds/Soundsource/MSS_Test.uasset",
+				"C:/Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Right.uasset",
+				"C:/Users/Utilisateur/Documents/REPO/LudumDare59goy/LudumDare59/Content/Audio/AnimNotify/AN_PlayStep.uasset"
+			]
+		}
+	]
+}
