@@ -1172,3 +1172,4 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.04.18-14.40.12:620][  9]LogEOSSDK: LogEOS: SDK Config Product Update Request Successful, Time: 19.452353
 [2026.04.18-14.40.12:623][  9]LogEOSSDK: LogEOS: SDK Config Data - Watermark: 1879824717
 [2026.04.18-14.40.12:623][  9]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 19.452353, Update Interval: 332.480225
+[2026.04.18-14.41.35:488][258]LogDerivedDataCache: C:/Users/Utilisateur/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.002 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
