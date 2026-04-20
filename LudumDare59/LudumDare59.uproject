@@ -18,6 +18,10 @@
 		{
 			"Name": "Soundscape",
 			"Enabled": true
+		},
+		{
+			"Name": "AudioInsights",
+			"Enabled": true
 		}
 	]
 }
