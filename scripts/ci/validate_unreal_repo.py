@@ -124,7 +124,7 @@ def main() -> int:
     _validate_core(data)
     print("Validation coeur du projet: OK")
 
-    if args.pr-assets:
+    if args.pr_assets:
         base = os.environ.get("BASE_SHA", "")
         head = os.environ.get("HEAD_SHA", "")
         n = _pr_asset_warnings(base, head)
