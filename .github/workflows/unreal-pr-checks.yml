@@ -1,0 +1,55 @@
+# Vérifications légères avant merge (sans installation d'Unreal sur le runner).
+# Projet: LudumDare59 (UE 5.6), principalement contenu + Blueprints.
+
+name: CI — Projet Unreal (sanity)
+
+on:
+  push:
+    branches: [ main, master, develop ]
+  pull_request:
+    branches: [ main, master, develop ]
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate-unreal-sanity:
+    name: Valider .uproject et Config
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Vérification Python (stdlib)
+        run: python3 scripts/ci/validate_unreal_repo.py
+
+      - name: Analyse des binaires sur la PR (avertissements)
+        if: github.event_name == 'pull_request'
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: python3 scripts/ci/validate_unreal_repo.py --pr-assets
+
+# -----------------------------------------------------------------------------
+# Build Unreal: nécessite un runner auto-hébergé Windows avec UE 5.6 + build tools.
+# Décommente et adapte les chemins, ou copie vers un workflow séparé.
+#
+#  unreal-build-windows:
+#    if: false
+#    runs-on: [self-hosted, windows, unreal]
+#    steps:
+#      - uses: actions/checkout@v4
+#        with:
+#          lfs: true
+#          fetch-depth: 0
+#      - name: Générer + build (exemple)
+#        shell: cmd
+#        run: |
+#          set U_PATH=C:\Program Files\Epic Games\UE_5.6
+#          "%U_PATH%\Engine\Build\BatchFiles\RunUAT.bat" BuildCookRun ^
+#            -project=%GITHUB_WORKSPACE%\LudumDare59\LudumDare59.uproject ^
+#            -noP4 -platform=Win64 -clientconfig=Development -cook -stage -package -build
