@@ -24,15 +24,20 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
       - name: Vérification Python (stdlib)
-        run: python3 scripts/ci/validate_unreal_repo.py
+        run: python scripts/ci/validate_unreal_repo.py
 
       - name: Analyse des binaires sur la PR (avertissements)
         if: github.event_name == 'pull_request'
         env:
           BASE_SHA: ${{ github.event.pull_request.base.sha }}
           HEAD_SHA: ${{ github.event.pull_request.head.sha }}
-        run: python3 scripts/ci/validate_unreal_repo.py --pr-assets
+        run: python scripts/ci/validate_unreal_repo.py --pr-assets
 
 # -----------------------------------------------------------------------------
 # Build Unreal: nécessite un runner auto-hébergé Windows avec UE 5.6 + build tools.

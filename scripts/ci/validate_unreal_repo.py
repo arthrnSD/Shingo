@@ -16,8 +16,19 @@ import subprocess
 import sys
 from pathlib import Path
 
-# Racine du dépôt = parent de scripts/
-ROOT = Path(__file__).resolve().parents[2]
+
+def _repo_root() -> Path:
+    """Racine du dépôt Git : GITHUB_WORKSPACE sur Actions, sinon parent de scripts/."""
+    ws = os.environ.get("GITHUB_WORKSPACE", "").strip()
+    if ws:
+        root = Path(ws).resolve()
+        if (root / "LudumDare59" / "LudumDare59.uproject").is_file():
+            return root
+    here = Path(__file__).resolve()
+    return here.parents[2]
+
+
+ROOT = _repo_root()
 PROJ = ROOT / "LudumDare59"
 UPROJECT = PROJ / "LudumDare59.uproject"
 REQUIRED_INI = (
@@ -33,9 +44,10 @@ BINARY_EXT = {".uasset", ".umap", ".ubulk", ".utoc", ".ucas", ".pak"}
 def _load_uproject() -> dict:
     if not UPROJECT.is_file():
         print(f"ERREUR: {UPROJECT} introuvable", file=sys.stderr)
+        print(f"  ROOT={ROOT} exists={ROOT.is_dir()}", file=sys.stderr)
         sys.exit(1)
     try:
-        return json.loads(UPROJECT.read_text(encoding="utf-8"))
+        return json.loads(UPROJECT.read_text(encoding="utf-8-sig"))
     except json.JSONDecodeError as e:
         print(f"ERREUR: JSON .uproject invalide: {e}", file=sys.stderr)
         sys.exit(1)
@@ -95,7 +107,7 @@ def _pr_asset_warnings(base: str, head: str) -> int:
             )
             warnings += 1
     if warnings == 0 and names:
-        print("Aucun gros binaire Unreal (≥ seuil) dans le diff, ou pas de binaires listés.")
+        print("Aucun gros binaire Unreal (>= seuil) dans le diff, ou pas de binaires listes.")
     return warnings
 
 
@@ -110,7 +122,7 @@ def main() -> int:
 
     data = _load_uproject()
     _validate_core(data)
-    print("Validation cœur du projet: OK")
+    print("Validation coeur du projet: OK")
 
     if args.pr-assets:
         base = os.environ.get("BASE_SHA", "")
